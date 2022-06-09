@@ -1,0 +1,152 @@
+body{ font-family: 'Montserrat', sans-serif;}
+p{padding: 0; margin: 0;}
+li {padding-bottom: 5px;}
+
+h1,h2,h3,h4,h5,ul,ol{
+	font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4{
+    color: black;
+}
+ul,ol{  margin-left: 18px;
+    padding-bottom: 5px;
+}
+h1{     
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 6px;
+    padding-bottom: 24px;}
+h2{
+    font-weight: bold;
+    font-size: 22px;    
+    line-height: 27px;
+    padding-bottom: 12px;}
+h3{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 11px;
+    margin-top: 15px;
+}
+h4{    
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 13px;
+}
+h5{
+    font-weight: normal;
+    Font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 9px;
+    color: #A8A8A8;
+}
+
+
+
+.main_box {
+     display: flex;
+     flex-direction: row-reverse;
+     /* background-color: #E5E5E5; */
+     background-color: #F5F7FA;
+     width: 1050px;
+     margin: 30px auto;
+     padding: 0px;
+}
+
+.info_box{
+    background-color: #fff;
+     width: 701px;
+	
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 100px 88px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.sidebar_box{
+   width: 350px;
+   background-color: #1E2939; 
+   color:#fff;
+   padding-top:40px;
+} 
+
+
+.info_block{	
+	margin-top: 20px;
+    padding-bottom: 40px;
+}
+ 
+.info_description{
+    width: 300px;
+}
+.i_project_list{
+    font-weight: bold;
+    color: black;
+}
+.i_proj_item, .i_proj_tech{
+    font-weight: normal;
+    color: #595959;
+}
+.i_proj_item{
+	display: inline-block;
+	width: 340px;
+    margin-left: 10px;
+    text-decoration: underline;
+    
+}
+.i_company_name{
+    color: #FB6D3A;
+    text-decoration: none;
+}
+.i_diploma_link{
+	color=#A8A8A8;
+    text-decoration: none;
+}
+
+/*
+sidebar
+white on black
+*/
+
+.photo{
+    width: 350px;
+}
+.sidebar_info{
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+.sidebar_white{
+    /* originally sidebar_title class,left comment for potential changes
+	font-weight: bold;
+    font-size: 22px;    
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 0; */
+	color: #fff;
+}
+.contact_type{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    padding-right: 8px;
+}
+.contact_link{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565e6a ;
+}
+.sidebar_skill_list{
+    color: #FB6D3A;
+} 
+.sidebar_skill_text{
+    margin-left: 0;
+    color: #fff;
+}
