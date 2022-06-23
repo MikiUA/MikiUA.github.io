@@ -1,7 +1,7 @@
 body{ font-family: 'Montserrat', sans-serif;}
 p{padding: 0; margin: 0;}
 li {padding-bottom: 5px;}
-
+a{ color:inherit;}
 h1,h2,h3,h4,h5,ul,ol{
 	font-style: normal;
     margin: 0px;
@@ -15,8 +15,8 @@ ul,ol{  margin-left: 18px;
 }
 h1{     
     font-weight: bold;
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 35px;
+    line-height: 40px;
     margin-top: 6px;
     padding-bottom: 24px;}
 h2{
@@ -73,7 +73,7 @@ h5{
    width: 350px;
    background-color: #1E2939; 
    color:#fff;
-   padding-top:40px;
+   padding-top:20px;
 } 
 
 
