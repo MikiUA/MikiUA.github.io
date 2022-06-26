@@ -52,14 +52,14 @@ h5{
      flex-direction: row-reverse;
      /* background-color: #E5E5E5; */
      background-color: #F5F7FA;
-     width: 1050px;
+     width: 950px;
      margin: 30px auto;
      padding: 0px;
 }
 
 .info_box{
     background-color: #fff;
-     width: 701px;
+     width: 651px;
 	
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     padding: 100px 88px;
@@ -70,7 +70,7 @@ h5{
     color: #595959;
 }
 .sidebar_box{
-   width: 350px;
+   width: 300px;
    background-color: #1E2939; 
    color:#fff;
    padding-top:20px;
@@ -115,7 +115,7 @@ white on black
 */
 
 .photo{
-    width: 350px;
+    width: 300px;
 }
 .sidebar_info{
     margin-top: 40px;
