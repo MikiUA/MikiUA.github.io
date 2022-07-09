@@ -18,7 +18,8 @@ h1{
     font-size: 35px;
     line-height: 40px;
     margin-top: 6px;
-    padding-bottom: 24px;}
+    padding-bottom: 20px;
+}
 h2{
     font-weight: bold;
     font-size: 22px;    
@@ -49,20 +50,20 @@ h5{
 
 .main_box {
      display: flex;
-     flex-direction: row-reverse;
+     flex-direction: row;
      /* background-color: #E5E5E5; */
      background-color: #F5F7FA;
-     width: 950px;
+     width: 1000px;
      margin: 30px auto;
      padding: 0px;
 }
 
 .info_box{
     background-color: #fff;
-     width: 651px;
+     width: 701px;
 	
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 100px 88px;
+    padding: 60px 75px;
     font-weight: normal;
     font-style: normal;
     font-size: 14px;
@@ -73,17 +74,46 @@ h5{
    width: 300px;
    background-color: #1E2939; 
    color:#fff;
-   padding-top:20px;
+   padding:20px 0;
 } 
+.nodisplay{
+    display: none;
+}
 
+.topleft{
+    position:relative;
+	left: -8%;
+	top: -2%; 
+}
+.lang_change_button{
+	
+    width: 5em;
 
+    border: 0.1px solid gray;
+}
+.switch{
+    display:inline-block;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.switch.s_on{
+    background-color: #1E2939;
+    color: white;
+}
+.switch.s_off{
+    background-color: #aaa;
+    color: #888;
+}
 .info_block{	
 	margin-top: 20px;
     padding-bottom: 40px;
 }
  
 .info_description{
-    width: 300px;
+    width: 30em;
+    /* 370px; */
+    
 }
 .i_project_list{
     font-weight: bold;
@@ -95,17 +125,13 @@ h5{
 }
 .i_proj_item{
 	display: inline-block;
-	width: 290px;
+	width: 310px;
     margin-left: 10px;
     text-decoration: underline;
     
 }
 .i_company_name{
     color: #FB6D3A;
-    text-decoration: none;
-}
-.i_diploma_link{
-	color=#A8A8A8;
     text-decoration: none;
 }
 
@@ -116,10 +142,12 @@ white on black
 
 .photo{
     width: 300px;
+	padding-bottom: 20px;
 }
 .sidebar_info{
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 40px;
+	padding-bottom: 40px;
 
 }
 .sidebar_white{
