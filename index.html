@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -11,174 +11,86 @@
     <title>Resume</title>
 </head>
 <body>
-    <div id="lang_ua" class="main_box"> <!--Великий центральний блок-->
-        <div class="info_box"> <!--Правий блок з інформацією-->
+    <div class="main_box"> <!--Великий центральний блок-->
+        <div class="info_box"> <!--Великий блок з інформацією-->
             <div class="topleft">
-                <div class="lang_change_button"><span class="switch s_on">UA</span><span onclick="changelangto('en')" class="switch s_off">EN</span></div>
-                <a href="plaintext/Максим_Мельников_Розробник.txt">Версія резюме у форматі тексту</a>
+                <div class="lang_change_button" ><span class="switch s_off" onclick="changeLanguageTo('UA')" changeLanguageTo id="lang_ua">UA</span><span class="switch s_on" onclick="changeLanguageTo('EN')" id="lang_en">EN</span></div>
+                <a href="plaintext/Maksym_Melnykov_developer_resume.txt" id="downloadable_resume">Plain Text resume</a>
             </div>
-            <div class="info_block"><!--Оголошення змінної (об'єкту людини) може інший клас--> 
-                <h3 class="info_top_title">Веб розробник (fullstack)</h3>
-                <h1 class="info_name">Максим Мельников</h1>              
-                
-                <p class="info_description ">
-                    Ентузіаст-розробник, який прагне зробити свій внесок у успіх команди завдяки наполегливій праці та уважності до деталей.
-                    Мотивований навчатися, рости та досягати успіхів, хочу створювати та ділитися проектами, близькими до користувача.
-                </p>
+            <div class="info_block"><!--Оголошення об'єкту людини-->
+                <h3 class="info_top_title" id="apply_position">Position to apply</h3>
+                <h1 class="info_name" id="applier_name">Name</h1>
+                <p class="info_description" id="description">my description</p>
             </div>
             <div class="info_block"><!--Список проектів-->
-                <h2 class="info_block_title">Проекти</h2>
-                <ol class="i_project_list">
-				   <li><a class="i_proj_item" href="https://github.com/MikiUA/Chat-Website">Сайт текстового чату</a>[<span class="i_proj_tech">Node.js, MongoDB</span>]</li>
-                   <li><a class="i_proj_item" href="https://github.com/MikiUA/InstrumentsHub">Віртуальні інструменти</a>[<span class="i_proj_tech">Javascript</span>]</li>
-					<li><a class="i_proj_item" href="https://github.com/MikiUA/React-Cat-Gallery">Галерея картинок котів</a>[<span class="i_proj_tech">React</span>]</li>
-                   <li><a class="i_proj_item" href="#.html">Моє резюме</a>[<span class="i_proj_tech">HTML, CSS</span>]</li>
-                   <li><a class="i_proj_item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Детальніший список</a>[<span class="i_proj_tech">C++</span>]</li>
-                   
+                <h2 class="info_block_title" id="projects_label">Projects</h2>
+                Screenshots and readme provided for most of them
+                <ol class="i_project_list" id="project_list">
+                   <a class="i_proj_item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Simple github projects</a><span class="i_proj_tech">(Link does not work correctly if your browser doesn't run javascript code)</span>
                 </ol>
             </div>
             <!--<div class="info_block"><!--Досвід роботи--
-                <h2>Work Experience</h2>
+                <h2 class="info_block_title" id="work_exp_label">Work Experience</h2>
                 <div>
                     <h3>See Projects for more info</h3>
-         
                 </div>              
-
-  
             </div> -->
             <div class="info_block"><!--освіта-->
-			
-				<h2>Освіта</h2>
-				<div>
-					<h3><a class="i_company_name" href="https://www.kpi.kharkov.ua/eng/">Національний Технічний Університет<br> «Харківський Політехнічний Інститут»<br>
-                    </a></h3>
-					<h4><a class="i_project_list" href="http://web.kpi.kharkov.ua/apm/golovna/">Математика та статистика</a> | <a href="img/diploma.jpg">Диплом.jpg</a></h4>
-					<h5>Вересень 2016 - Червень 2021  |  Харків, Україна</h5>
-				</div>
-				<div class="info_block"><!--освіта-->
-					<h3>Курси у <a class="i_company_name" href="https://goit.ua/">GoIT</a></h3>
-					<h4>Веб розробка</h4>
-					<h5>Травень 2022 - Червень 2022</h5>
-				</div>
-			</div>
-
-        </div>
-
-        <aside class="sidebar_box"> <!--Лівий блок з контактами-->
-            
-			<!--Картинка-->
-                 <img src="./img/NoFace.jpg" onclick='this.src="./img/MyFace.jpg"' class="photo"></img><!--Картинка-->
-
-                
-                <div class="sidebar_info"><!--Контакти-->
-                <h2 class="sidebar_white">Контакти</h2>
-                <p><span class="contact_type">C: </span><a href="tel:+380669153250" class="contact_link">+38 066 915 32 50 </a></p>  
-                <p><span class="contact_type">E: </span><a href="mailto:mr99.maxim@gmail.com" class="contact_link"> mr99.maxim@gmail.com</a></p>
+				<h2 class="info_block_title" id="education_label">Education</h2>
+                <div id="education">
+                    
                 </div>
-                
-                <div class="sidebar_info"><!--Технічні навички-->
-                <h2 class="sidebar_white">Технічні навички</h2>
-                <ul class="sidebar_skill_list">
-                    <li><span class="sidebar_skill_text">HTML + CSS</span></li>
-                    <li><span class="sidebar_skill_text">C++</span></li>
-                    <li><span class="sidebar_skill_text">Javascript</span></li>
-                    <li><span class="sidebar_skill_text">Node, React</span></li>
-                </ul>
-                </div>
-                
-                <div class="sidebar_info"><!--Людські якості-->
-                    <h2 class="sidebar_white">Якості</h2>
-                    <ul class="sidebar_skill_list">
-                        <li><span class="sidebar_skill_text">Вирішення проблем</span></li>
-                        <li><span class="sidebar_skill_text">Творчий</span></li>
-                        <li><span class="sidebar_skill_text">Відповідальний</span></li>
-						
-                        <!--<li><span class="sidebar_skill_text">Agile</span></li>
-						<li><span class="sidebar_skill_text">Scrum</span></li>
-						<li><span class="sidebar_skill_text">GTD</span></li>
-						<li><span class="sidebar_skill_text">Teamwork</span></li>
-						<li><span class="sidebar_skill_text">SMART goals</span></li>-->
-						
-                    </ul>
-                </div>
-            
-        </aside>
-    </div>
-
-    <div id="lang_en" class="main_box nodisplay"> <!--Великий центральний блок-->
-        <div class="info_box"> <!--Правий блок з інформацією-->
-            <div class="topleft">
-                <div class="lang_change_button" onclick="changelangto('ua')" ><span class="switch s_off">UA</span><span class="switch s_on">EN</span></div>
-                <a href="plaintext/Maksym_Melnykov_developer_resume.txt">Plain Text resume</a>
-            </div>
-            <div class="info_block"><!--Оголошення змінної (об'єкту людини) може інший клас-->
-                <h3 class="info_top_title">Web (fullstack) Developer</h3>
-                <h1 class="info_name">Maksym Melnykov</h1>
-                <p class="info_description ">Young guy willing to work, ready to bring exciting ideas into life, to improve and create new experience for the customers</p>
-            </div>
-            <div class="info_block"><!--Список проектів-->
-                <h2 class="info_block_title">Projects</h2>
-                <ol class="i_project_list">
-                   <li><a class="i_proj_item" href="https://github.com/MikiUA/Chat-Website">Chat website</a>[<span class="i_proj_tech">Node.js, MongoDB</span>]</li>
-                   <li><a class="i_proj_item" href="https://github.com/MikiUA/InstrumentsHub">Virtual instruments website</a>[<span class="i_proj_tech">Javascript</span>]</li>
-					<li><a class="i_proj_item" href="https://github.com/MikiUA/React-Cat-Gallery">Cat image gallery</a>[<span class="i_proj_tech">React</span>]</li>
-                   <li><a class="i_proj_item" href="#.html">My resume</a>[<span class="i_proj_tech">HTML, CSS</span>]</li>
-                   <li><a class="i_proj_item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Detailed list</a>[<span class="i_proj_tech">C++</span>]</li>
-                   
-                </ol>
-            </div>
-            <!--<div class="info_block"><!--Досвід роботи--
-                <h2>Work Experience</h2>
-                <div>
-                    <h3>See Projects for more info</h3>
-         
-                </div>              
-
-  
-            </div> -->
-            <div class="info_block"><!--освіта-->
-			
-				<h2>Education</h2>
-				<div>
+				<!-- <div>
 					<h3><a class="i_company_name" href="https://www.kpi.kharkov.ua/eng/">National Technical University – «Kharkiv Polytechnic Institute» </a></h3>
-					<h4><a class="i_project_list" href="http://web.kpi.kharkov.ua/apm/golovna/">Mathematics and statistics</a> | <a href="img/diploma.jpg">Diploma.jpg</a></h4>
+					<h4><a class="i_project_list" href="http://web.kpi.kharkov.ua/apm/golovna/">Mathematics and statistics</a> | <a href="img/diploma.jpg">Diploma.jpg<a></h4>
 					<h5>September 2016 - June 2021  |  Ukraine</h5>
 				</div>
-				<div class="info_block"><!--освіта-->
+				<div class="info_block">
 					<h3><a class="i_company_name" href="https://goit.ua/">GoIT</a> course</h3>
-					<h4 >Web dev</h4>
+					<h4 >HTML5 + CSS3</h4>
 					<h5>May 2022 - June 2022</h5>
+				</div> -->
+			</div>
+			<div class="info_block"><!--Про мене-->
+				<h2 class="info_block_title" id="about_me_label">About myself</h2>
+				<div id="about_me">
 				</div>
 			</div>
-
         </div>
 
-        <aside class="sidebar_box"> <!--Лівий блок з контактами-->
+        <aside class="sidebar_box"> <!-- блок з контактами-->
             
 			<!--Картинка-->
-                 <img src="./img/NoFace.jpg" onclick='this.src="./img/MyFace.jpg"' class="photo"></img><!--Картинка-->
+                 <img src="./img/MyFace.jpg" id="myphoto" onclick='changePhotoOn()' class="photo"></img><!--Картинка-->
 
+                <!-- <div class="sidebar_info">Контакти -->
+				
+                <!-- <h2 class="sidebar_white">Name</h2>
+                <p><span class="contact_type">(UA): </span>Мельников Максим </p>  
+                <p><span class="contact_type">(EN): </span>Melnykov Maksym</p>  
+                </div> -->
                 <div class="sidebar_info"><!--Контакти-->
-                <h2 class="sidebar_white">Contacts</h2>
-                <p><span class="contact_type">C: </span><a href="tel:+380669153250" class="contact_link">+38 066 915 32 50 </a></p>  
-                <p><span class="contact_type">E: </span><a href="mailto:mr99.maxim@gmail.com" class="contact_link"> mr99.maxim@gmail.com</a></p>
+                <h2 class="sidebar_white" id="contacts_label">Contacts</h2>
+                <p><span src="./img/Phone_ico.jpg" alt="C: " class="contact_type">C:</span><a href="tel:+380669153250" class="contact_link">+38 066 915 32 50 </a></p>  
+                <p><apan src="./img/Email_ico.jpg" alt="E: " class="contact_type">E:</apan><a href="mailto:mr99.maxim@gmail.com" class="contact_link"> mr99.maxim@gmail.com</a></p>
+                <p><img src="./img/Ln_ico.png" alt="in: " class="contact_type"></img><a href="https://www.linkedin.com/in/mikiua/" class="contact_link"> linkedin.com/in/mikiua</a></p>
+                <p><img src="./img/Gh_white_ico.png" alt="gh: " class="contact_type"></img><a href="https://github.com/mikiUA" class="contact_link"> github.com/mikiUA</a></p>
+                <p></span><span class="contact_link"> Ukraine</span></p>
                 </div>
                 
                 <div class="sidebar_info"><!--Технічні навички-->
-                <h2 class="sidebar_white">Tech Skills</h2>
-                <ul class="sidebar_skill_list">
+                <h2 class="sidebar_white" id="skills_tech_label">Tech Skills</h2>
+                <ul class="sidebar_skill_list" id="skills_tech">
                     <li><span class="sidebar_skill_text">HTML + CSS</span></li>
                     <li><span class="sidebar_skill_text">C++</span></li>
                     <li><span class="sidebar_skill_text">Javascript</span></li>
-                    <li><span class="sidebar_skill_text">Beginner Node.js</span></li>
-                    <li><span class="sidebar_skill_text">Beginner React</span></li>
+                    <li><span class="sidebar_skill_text">Node.js</span></li>
                 </ul>
-                </div>
+                </div> 
                 
                 <div class="sidebar_info"><!--Людські якості-->
-                    <h2 class="sidebar_white">Soft Skills</h2>
-                    <ul class="sidebar_skill_list">
-                        <li><span class="sidebar_skill_text">Problem-Solving</span></li>
+                    <h2 class="sidebar_white" id="skills_soft_label">Soft Skills</h2>
+                    <ul class="sidebar_skill_list" id="skills_soft">
                         <li><span class="sidebar_skill_text">Fast learner</span></li>
                         <li><span class="sidebar_skill_text">Creative</span></li>
                         <li><span class="sidebar_skill_text">Responsible</span></li>
@@ -188,23 +100,13 @@
 						<li><span class="sidebar_skill_text">GTD</span></li>
 						<li><span class="sidebar_skill_text">Teamwork</span></li>
 						<li><span class="sidebar_skill_text">SMART goals</span></li>-->
-						
                     </ul>
                 </div>
             
         </aside>
     </div>
-    <script>
-        function changelangto(lang){
-            if (lang=='en'){
-                document.getElementById('lang_en').style.display="flex";
-                document.getElementById('lang_ua').style.display="none";
-            }
-            else{
-                document.getElementById('lang_en').style.display="none";
-                document.getElementById('lang_ua').style.display="flex";
-            }
-        }
-    </script>
+    <script src="script/toggle photo.js" name="toggle photo"></script>
+    <script src="script/language text.js"></script>
+    <script src="script/language script.js" name="changeLanguageTo"></script>
 </body>
 </html>
