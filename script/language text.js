@@ -6,11 +6,11 @@ const EN={
     "about myself":"I am interested in web development technologies, I want to create and share projects close to the user. Am sure that by working in this field I can improve my knowledge and hone my skills and then with the team help making peoples lives easier.",
     "downloadable_resume label":"download resume",
     "downloadable_resume link":"#.html",
-    "projects label":"Projects",
+    "projects label":"Project experience",
     "projects":[{
         "title":"Chat website",
         "tech_stack":["Node.js","MongoDB"],
-        "link":"https://github.com/MikiUA/Chat-Website",
+        "link":"https://github.com/MikiUA/Chat-Website/tree/main/screenshots",
         "screenshot":""
     },{
         "title":"Virtual instruments website",
@@ -29,30 +29,30 @@ const EN={
     //     "screenshot":""
     }],
     "work exp label":"Work experience",
-    "work exp":[],
+    "work exp":[{
+        "location":"OneReach.ai",
+        "location_href":"",
+        "direction":"Javascript low-code developer",
+        "direction_href":"",
+        "time_period":"September 2022",
+        "responsibility_list":["Develop block-scheme task solutions","Find and report bugs for in-development low-code platform"]
+    },],
     "education label":"Education",
     "education":[
         {
-            "location":"National Technical University – «Kharkiv Polytechnic Institute»",
+            "location":"National Technical University<br>«Kharkiv Polytechnic Institute»",
             "location_href":"https://www.kpi.kharkov.ua/eng/",
-            "direction":"Mathematics and statistics",
-            "direction_href":"http://web.kpi.kharkov.ua/apm/golovna/",
-            "time_period":"September 2016 - June 2021  |  Ukraine",
+            "direction":"<a href='http://web.kpi.kharkov.ua/apm/golovna/'>Mathematics and statistics</a> | <a href='img/diploma.jpg'>Diploma</a>",
+            "direction_href":"",
+            "time_period":"September 2016 - June 2021 | Ukraine, Kharkiv",
             "diploma":""
 
     },{
-        "location":"GOIT",
+        "location":"IT School GoIT",
         "location_href":"",
         "direction":"Web developement crash course",
         "direction_href":"",
         "time_period":"May 2022 - June 2022"
-
-},{
-    "location":"OneReach.ai",
-    "location_href":"",
-    "direction":"Javascript low-code developement paid internship",
-    "direction_href":"",
-    "time_period":"September 2022"
 
 },],
     "contacts label":"Contacts",
@@ -66,7 +66,9 @@ const EN={
     "tech skills":["C++","Javascript","HTML, CSS","React","Node.js","MongoDB, SQL","Figma"],
     "more tech skills":["English level B2","Microsoft Word, Excel","Mathematics, statistics", "Drivers licence (B)"],
     "soft skills label":"Soft Skills",
-    "soft skills":["Problem solving","Creative","Responsible","Preparative","Incorporated AI into work cycle"]
+    "soft skills":["Problem solving","Creative","Responsible","Preparative","Incorporated AI into work cycle"],
+    "lang skills label":"Languages",
+    "lang skills":["English level <a href='img/StatementOfResult.pdf'>B2</a>","Ukrainian Native","Russian Native"],
 }
 
 const UA={};
