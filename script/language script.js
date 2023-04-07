@@ -24,6 +24,10 @@ function changeLanguageTo(newLang='EN'){
 
 
 //#region html building functions
+function ifExist(condition,string){
+    return condition?string:'';
+}
+
 function project_tech_stack(array){
     // console.log(array)
     // return String(array);//
@@ -34,10 +38,21 @@ function projects(){
     const arr=TEXT[language]['projects'];
 
     return arr.map((item)=>{
-        const {title,tech_stack=[],link,screenshot}=item;
+        const {title,tech_stack=[],link,codelink,role,responsibilities,screenshot}=item;
+
+        function IconLink(link,icon){
+            return ifExist(link,`<a href="${link}"><img src="img/${icon}" class="icon i_project_link_icon"></a>`);
+        }
         return `
-            <div class="i_proj_item"><li><a href="${link}">${title}</a></li></div>
+            <div class="i_proj_item">
+                <li><h4>${title} ${IconLink(link,"UI_ico.png")} ${IconLink(codelink,"Code_ico.png")}<h4></li>
+            </div>
             <div class="i_proj_tech"><b>[</b>${project_tech_stack(tech_stack)}<b>]</b></div>
+            ${ifExist(role,`<div class="i_project_descr">${role}</div>`)}
+            ${ifExist(responsibilities,`<ul class="i_project_descr">
+            ${responsibilities?responsibilities.map((text)=>(`
+                <li>${text}</li>
+            `)).join(''):''}</ul>`)}
             `
     }).join('');
 

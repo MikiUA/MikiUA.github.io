@@ -8,16 +8,35 @@ const EN={
     "downloadable_resume link":"#.html",
     "projects label":"Project experience",
     "projects":[{
-        "title":"Chat website",
-        "tech_stack":["Node.js","MongoDB"],
-        "link":"https://github.com/MikiUA/Chat-Website/tree/main/screenshots",
-        "screenshot":""
-    },{
         "title":"Virtual instruments website",
         "tech_stack":["Javascript","CSS"],
-        "link":"https://github.com/MikiUA/InstrumentsHub",
-        "screenshot":""
+        "role":"Developer",
+        "link":"https://iridescent-bombolone-954cbb.netlify.app/",
+        "codelink":"https://github.com/MikiUA/InstrumentsHub",
+        "responsibilities":["Simplify and unify javascript code from different implementations","Make a comfortable rubber design"]
     },{
+        "title":"Phonebook",
+        "link":"https://mikiua.github.io/goit-react-hw/hw-08-phonebook/",
+        "codelink":"https://github.com/MikiUA/goit-react-hw/tree/main/src/hw-05-movies",
+        "tech_stack":["React","Redux","Material UI"],
+        "role":"React Student",
+        "responsibilities":["Develop a simple application using wide variety of technology","Implement login system","Make use of redux toolkit","Simlify and beautify design using an open-source library"]
+    },{
+        "title":"Movie Gallery",
+        "role":"React Student",
+        "tech_stack":["React"],
+        "link":"https://mikiua.github.io/goit-react-hw/hw-05-movies/",
+        "codelink":"https://github.com/MikiUA/goit-react-hw/tree/main/src/hw-05-movies",
+        "responsibilities":["Develop a user interface to work with themoviedb free api"],
+    },{
+        "title":"Chat website",
+        "tech_stack":["Node.js","MongoDB"],
+        "codelink":"https://github.com/MikiUA/Chat-Website/tree/main/screenshots",
+        "role":"Developer",
+        "responsibilities":["Learn the basics of Node.js and web development in general","Implement a working website of high enough quality to be considered usable."],
+        "screenshot":""
+    },
+    ,{
         "title":"My resume",
         "tech_stack":["HTML","CSS"],
         "link":"#.html",
@@ -36,6 +55,11 @@ const EN={
         "direction_href":"",
         "time_period":"September 2022",
         "responsibility_list":["Develop block-scheme task solutions","Find and report bugs for in-development low-code platform"]
+    },{
+        "location":'Supermarket "Class"',
+        "direction":"Handyman",
+        "time_period":"April-May 2018",
+        "responsibility_list":[]
     },],
     "education label":"Education",
     "education":[

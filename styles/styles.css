@@ -8,12 +8,11 @@ h1,h2,h3,h4,h5,div,p,ul,ol,body,li{
     margin: 0px;
     padding: 0px;
 }
-/* h1,h2,h3,h4{
-    margin-top: 0;
-} */
+
 h5,p{margin-top: 0.5em;}
 
 a  {color:inherit;}
+
 ul,ol{
     padding-left: 1.5em;
 }
@@ -25,7 +24,6 @@ h1,h2,h3,h4{
 h1{     
     font-size: 200%;
     line-height: 200%;
-    /* margin: 0 0 1rem; */
 }
 h2{
     font-size: 160%;    
@@ -35,21 +33,22 @@ h3{
     font-size: 120%;    
     line-height: 120%;
 }
-h4{
+h4,h5{
     font-size: inherit;
     line-height: inherit;
 }
-h5{    
-    font-size: 100%;
-    line-height: 100%;
-}
+
 h5{
     font-weight: normal;
     color: inherit;
-    /* color: #A8A8A8; */
 }
-
-
+.icon{
+    width: auto;
+    height: 1em;
+    display: inline;
+    vertical-align: bottom;
+    padding-bottom: 0.1em;
+}
 
 .main_box {
     position: relative;
@@ -68,6 +67,7 @@ h5{
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     color: #595959;
 }
+
 .info_box_color{
     color: #595959;
 }
@@ -128,15 +128,14 @@ h5{
     grid-gap: 10px;
     font-size: 100%;
 }
-
-/* .i_proj_item{
-    padding: 5px;
-    background-color: #FB6D3A;
+.i_project_descr{
+    grid-column: span 2;
 }
-.i_proj_tech{
-    padding: 5px;
-    background-color: yellowgreen;
-} */
+.i_project_link_icon{
+margin-left: 0.25em;
+height: 0.75em;
+border-bottom: 0.5px solid black;
+}
 
 .experience_block{
     margin-bottom: 1.4rem;
@@ -160,11 +159,7 @@ h5{
     width: 100%;
     margin: 0 auto;
 }
-.sidebar_info{
-    /* margin-top: 10px;
-    margin-left: 40px;
-	padding-bottom: 40px; */
-}
+
 .sidebar_white{
     /* originally sidebar_title class,left comment for potential changes
 	font-weight: bold;
@@ -174,10 +169,9 @@ h5{
     margin-bottom: 0; */
 	color: #fff;
 }
+
 .contact_type{
     font-weight: bold;
-    height: 15px;    
-    width: 15px;
     /* margin-right: 8px; */
 }
 .contact_link{
