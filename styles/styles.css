@@ -86,7 +86,7 @@ h5{
 
 .topleft{
     position:absolute;
-    visibility: hidden;
+    visibility: visible;
 	right: 1%;
 	top: 1%; 
 }
