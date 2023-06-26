@@ -5,41 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link href="styles/styles.css" rel="stylesheet">
-    <title>Resume</title>
+    <link href="styles/s_general.css" rel="stylesheet">
+    <link href="styles/s_layout.css" rel="stylesheet">
+    <link href="styles/s_info.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
 </head>
 
 <body>
     <div class="main_box"> <!--Великий центральний блок-->
-        <div class="info_box"> <!--Великий блок з інформацією-->
+        <div class="info_box info_box_color"> <!--Великий блок з інформацією-->
             <div class="topleft">
-                <div class="lang_change_button">
-                    <span class="switch s_off" onclick="changeLanguageTo('UA')" changeLanguageTo id="lang_ua">UA</span>
-                    <span class="switch s_on" onclick="changeLanguageTo('EN')" id="lang_en">EN</span>
-                </div>
-                <a style="display: none;" href="plaintext/Maksym_Melnykov_developer_resume.txt"
-                    id="downloadable_resume">download</a>
+                <div class="lang_change_button" id="lang_change_button"></div>
+                <span id="downloadable_resume">download</span>
             </div>
             <div class="info_block"><!--Оголошення об'єкту людини-->
-                <h3 class="info_top_title" id="apply_position">Position to apply</h3>
-                <h1 class="info_name" id="applier_name">Name</h1>
+                <h3 class="info_top_title" id="position">Position to apply</h3>
+                <h1 class="info_name" id="name">Name</h1>
                 <p class="info_description" id="description">my description</p>
             </div>
             <div class="info_block"><!--Список проектів-->
                 <h2 class="info_block_title" id="projects_label">Projects</h2>
-                <ol class="i_project_list" id="project_list">
-                    <a class="i_proj_item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Simple github projects</a>
+                <ol class="i_project_list" id="projects">
+                    <a class="i_proj_item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Simple learning
+                        projects</a>
                     <span class="i_proj_tech">(Link does not work correctly if your browser doesn't run javascript
                         code)</span>
                 </ol>
             </div>
             <div class="info_block"><!--Досвід роботи-- -->
-                <h2 class="info_block_title" id="work_exp_label">Work Experience</h2>
-                <div id="work_exp">
-                    See Projects for more info
+                <h2 class="info_block_title" id="work exp_label">Work Experience</h2>
+                <div id="work exp">
+                    <!--Досвід роботи-- -->
                 </div>
             </div>
             <div class="info_block"><!--освіта-->
@@ -49,8 +49,8 @@
                 </div>
             </div>
             <div class="info_block"><!--Про мене-->
-                <h2 class="info_block_title" id="about_me_label">About myself</h2>
-                <div id="about_me" class="info_description">
+                <h2 class="info_block_title" id="about me_label">About myself</h2>
+                <div id="about me" class="info_description">
                     <!-- About myself text -->
                 </div>
             </div>
@@ -59,7 +59,7 @@
         <aside class="sidebar_box"> <!-- блок з контактами-->
 
             <div class='photo-cropper'><!--Картинка-->
-                <img src="./img/MyFace.jpg" id="myphoto" onclick='changePhotoOn()' class="photo"></img><!--Картинка-->
+                <img src="" id="myphoto" onclick='togglePhoto()' class="photo"></img><!--Картинка-->
             </div>
 
             <div class="info_block"><!--Контакти-->
@@ -78,6 +78,7 @@
             <div class="info_block"><!--Технічні навички-->
                 <h2 class="sidebar_white" id="skills_tech_label">Tech Skills</h2>
                 <ul class="sidebar_skill_list" id="skills_tech">
+                    <!--Технічні навички-->
                     <li><span class="sidebar_skill_text">HTML + CSS</span></li>
                 </ul>
             </div>
@@ -85,11 +86,8 @@
             <div class="info_block"><!--Людські якості-->
                 <h2 class="sidebar_white" id="skills_soft_label">Soft Skills</h2>
                 <ul class="sidebar_skill_list" id="skills_soft">
+                    <!--Нетехнічні навички-->
                     <li><span class="sidebar_skill_text">Agile</span></li>
-                    <li><span class="sidebar_skill_text">Scrum</span></li>
-                    <li><span class="sidebar_skill_text">GTD</span></li>
-                    <li><span class="sidebar_skill_text">Teamwork</span></li>
-                    <li><span class="sidebar_skill_text">SMART goals</span></li>
                 </ul>
             </div>
 
@@ -102,9 +100,9 @@
 
         </aside>
     </div>
-    <script src="script/toggle photo.js" name="toggle photo"></script>
-    <script src="script/language text.js"></script>
-    <script src="script/language script.js" name="changeLanguageTo"></script>
+    <script src="script/togglePhoto.js"></script>
+    <script src="script/changeLanguage.js"></script>
+    <script src="script/downloadPdf.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,86 @@
+.icon {
+    width: auto;
+    height: 1em;
+    display: inline;
+    vertical-align: bottom;
+    padding-bottom: 0.1em;
+}
+
+.main_box {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 98vw;
+    max-width: fit-content;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.info_box {
+    flex-grow: 1;
+    padding: 35px 5em;
+    background-color: #fdfdfd;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    color: #4d4d4d;
+}
+
+.info_box_color {
+    color: #595959;
+}
+
+.sidebar_box {
+
+    width: 20%;
+    min-width: 200px;
+    max-width: 300px;
+
+    padding: 25px 20px;
+
+    background-color: #1E2939;
+    color: #fff;
+}
+
+.topleft {
+    position: absolute;
+    visibility: visible;
+    right: 1%;
+    top: 1%;
+}
+
+.lang_change_button {
+    display: flex;
+    width: 5em;
+    border: 0.1px solid gray;
+}
+
+.switch {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.switch.s_on {
+    background-color: #1E2939;
+    color: white;
+}
+
+.switch.s_off {
+    background-color: #aaa;
+    color: #888;
+}
+
+.photo-cropper {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.photo {
+    object-fit: cover;
+    border-radius: 30%;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}

@@ -1,0 +1,74 @@
+.info_block_title {
+    border-bottom: dotted 1px #1E2939;
+}
+
+.info_block {
+    margin-top: 28px;
+}
+
+.info_description {
+    width: 27em;
+    font-stretch: expanded;
+}
+
+.i_project_list {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    row-gap: 16px;
+    column-gap: 12px;
+    margin-top: 12px;
+    grid-gap: 10px;
+    font-size: 100%;
+}
+
+.i_project_descr {
+    grid-column: span 2;
+}
+
+.i_project_link_icon {
+    margin-left: 0.25em;
+    height: 0.75em;
+    border-bottom: 0.5px solid black;
+}
+
+.experience_block {
+    margin-bottom: 1.4rem;
+}
+
+.i_company_name {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.sidebar_white {
+    /* originally sidebar_title class,left comment for potential changes
+	font-weight: bold;
+    font-size: 22px;    
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 0; */
+    color: #fff;
+}
+
+.contact_type {
+    font-weight: bold;
+    /* margin-right: 8px; */
+}
+
+.contact_link {
+    font-weight: normal;
+    color: #565e6a;
+    /* padding-bottom: 8px; */
+}
+
+.sidebar_skill_list {
+    color: #FB6D3A;
+    margin-top: 0.5em;
+}
+
+.sidebar_skill_text {
+    /* margin-left: 0; */
+    color: #fff;
+}

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+a {
+    color: inherit;
+}
+
+h5,
+p {
+    margin-top: 0.5em;
+}
+
+ul,
+ol {
+    padding-left: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 200%;
+    line-height: 200%;
+}
+
+h2 {
+    font-size: 160%;
+    line-height: 160%;
+}
+
+h3 {
+    font-size: 120%;
+    line-height: 120%;
+}
+
+h4,
+h5 {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+h5 {
+    font-weight: normal;
+    color: inherit;
+}
