@@ -144,7 +144,7 @@ TXT = {
             "location_href": "",
             "direction": "Web developement crash course",
             "direction_href": "",
-            "time_period": "May 2022 - June 2022"
+            "time_period": "May 2022 - June 2023"
         }
     ],
     "contacts": [

@@ -8,7 +8,10 @@ async function downloadAsPdf() {
   };
 
   // Get the page content
-  const content = document.documentElement;
+  const content = document.documentElement.cloneNode(true);
+  // content.querySelectorAll('img').forEach(image => image.src = '');//for local file testing
+  // content.querySelectorAll('li').forEach(litem => litem.innerHTML = '- ' + litem.innerHTML);//for local file testing
+  content.querySelector('#topleft').style = "visibility:hidden";
 
   // Generate the PDF
   html2pdf().set(options).from(content).outputPdf('datauristring')
@@ -18,21 +21,14 @@ async function downloadAsPdf() {
       a.href = pdfDataUri;
       a.download = options.filename;
       a.click();
-      return
     })
     .catch(function (error) {
       console.error('Error generating PDF:', error);
-      return
     });
 }
+
 // Add a download button or trigger the download on page load
-// Replace "downloadButton" with the ID or class of your download button element
 document.addEventListener('DOMContentLoaded', function () {
-  async function download() {
-    document.getElementById('topleft').style.display = 'none';
-    await downloadAsPdf();
-    document.getElementById('topleft').style.display = 'block';
-  }
   const downloadButton = document.getElementById('downloadable_resume');
-  downloadButton.addEventListener('click', download);
+  downloadButton.addEventListener('click', downloadAsPdf);
 });
