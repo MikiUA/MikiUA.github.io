@@ -8,6 +8,21 @@ const EN = {
     "downloadable_resume link": "#.html",
     "projects label": "Project experience",
     "projects": [{
+        "title": "GooseTrack",
+        "tech_stack": ["React", "Node.js", "Material UI", "JWT"],
+        "role": "Team Lead, Frontend and backend deveoper",
+        "link": "https://mikiua.github.io/GooseTrack-frontend",
+        "codelink": "https://github.com/MikiUA/GooseTrack-frontend 	",
+        "responsibilities": [
+            "Organise working environment (repositories, hosting and version management for tech stack)",
+            "Setup and control the rules for github branch management, resolve version conflicts",
+            "Communicating about every task that is or has to be done",
+            "Writing documentation, such as readme, openAPI (swagger), and instructions on branching and naming etiquette",
+            "Implementing a user authentification system (backend) using Json Web Token",
+            "Implementing a dark theme setup (frontend), including theme and component coloring patterns",
+            "Helping teammates with their code, sometimes refactoring inconsistent parts of application"
+        ]
+    }, {
         "title": "Virtual instruments website",
         "tech_stack": ["Javascript", "CSS"],
         "role": "Developer",
@@ -64,7 +79,7 @@ const EN = {
     "education label": "Education",
     "education": [
         {
-            "location": "National Technical University<br>«Kharkiv Polytechnic Institute»",
+            "location": "National Technical University<br>'Kharkiv Polytechnic Institute'",
             "location_href": "https://www.kpi.kharkov.ua/eng/",
             "direction": "<a href='http://web.kpi.kharkov.ua/apm/golovna/'>Mathematics and statistics</a> | <a href='img/diploma.jpg'>Diploma</a>",
             "direction_href": "",
@@ -105,6 +120,20 @@ const UA = {
     "downloadable_resume link": "#.html",
     "projects label": "Проектний досвід",
     "projects": [{
+        "title": "GooseTrack",
+        "tech_stack": ["React", "Node.js", "Material UI", "JWT"],
+        "role": "Тімлід, розробник",
+        "link": "https://mikiua.github.io/GooseTrack-frontend",
+        "codelink": "https://github.com/MikiUA/GooseTrack-frontend 	",
+        "responsibilities": [
+            "Організація робочого середовища (репозиторії, хостинг і керування версіями для технічного стеку)",
+            "Налаштування та контроль правил для керування гілками github, вирішення конфліктів версій",
+            "Спілкування про кожне завдання, яке є або має бути виконане",
+            "Написання документації, як-от readme, openAPI (swagger), інструкцій щодо розгалуження та етикету імен",
+            "Впровадження системи автентифікації користувача (бекенд) за допомогою Json Web Token",
+            "Реалізація налаштування темної теми (інтерфейс), включаючи шаблони забарвлення теми та компонентів",
+            "Допомога товаришам по команді з їхнім кодом, рефакторинг неузгоджених частин програми"]
+    }, {
         "title": "Віртуальне піаніно",
         "tech_stack": ["Javascript", "CSS"],
         "role": "Творчий проект",
@@ -161,7 +190,7 @@ const UA = {
     "education label": "Освіта",
     "education": [
         {
-            "location": "Національний Технічний Університет<br>«Харківський Політехнічний Інститут»",
+            "location": `Національний Технічний Університет<br>"Харківський Політехнічний Інститут"`,
             "location_href": "https://www.kpi.kharkov.ua/eng/",
             "direction": "<a href='http://web.kpi.kharkov.ua/apm/golovna/'>Математика та статистика</a> | <a href='img/diploma.jpg'>посилання на диплом</a>",
             "direction_href": "",

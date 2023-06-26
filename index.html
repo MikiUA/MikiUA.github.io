@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-	<link href="styles/styles.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
     <title>Resume</title>
 </head>
+
 <body>
     <div class="main_box"> <!--Великий центральний блок-->
         <div class="info_box"> <!--Великий блок з інформацією-->
             <div class="topleft">
-                <div class="lang_change_button" ><span class="switch s_off" onclick="changeLanguageTo('UA')" changeLanguageTo id="lang_ua">UA</span><span class="switch s_on" onclick="changeLanguageTo('EN')" id="lang_en">EN</span></div>
-                <a href="plaintext/Maksym_Melnykov_developer_resume.txt" id="downloadable_resume">Plain Text resume</a>
+                <div class="lang_change_button">
+                    <span class="switch s_off" onclick="changeLanguageTo('UA')" changeLanguageTo id="lang_ua">UA</span>
+                    <span class="switch s_on" onclick="changeLanguageTo('EN')" id="lang_en">EN</span>
+                </div>
+                <a style="display: none;" href="plaintext/Maksym_Melnykov_developer_resume.txt"
+                    id="downloadable_resume">download</a>
             </div>
             <div class="info_block"><!--Оголошення об'єкту людини-->
                 <h3 class="info_top_title" id="apply_position">Position to apply</h3>
@@ -25,53 +31,60 @@
             <div class="info_block"><!--Список проектів-->
                 <h2 class="info_block_title" id="projects_label">Projects</h2>
                 <ol class="i_project_list" id="project_list">
-                   <a class="i_proj_item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Simple github projects</a><span class="i_proj_tech">(Link does not work correctly if your browser doesn't run javascript code)</span>
+                    <a class="i_proj_item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Simple github projects</a>
+                    <span class="i_proj_tech">(Link does not work correctly if your browser doesn't run javascript
+                        code)</span>
                 </ol>
             </div>
             <div class="info_block"><!--Досвід роботи-- -->
                 <h2 class="info_block_title" id="work_exp_label">Work Experience</h2>
                 <div id="work_exp">
                     See Projects for more info
-                </div>              
+                </div>
             </div>
             <div class="info_block"><!--освіта-->
-				<h2 class="info_block_title" id="education_label">Education</h2>
+                <h2 class="info_block_title" id="education_label">Education</h2>
                 <div id="education">
-                    
+                    <!-- education list -->
                 </div>
-			</div>
-			<div class="info_block"><!--Про мене-->
-				<h2 class="info_block_title" id="about_me_label">About myself</h2>
-				<div id="about_me" class="info_description">
-				</div>
-			</div>
+            </div>
+            <div class="info_block"><!--Про мене-->
+                <h2 class="info_block_title" id="about_me_label">About myself</h2>
+                <div id="about_me" class="info_description">
+                    <!-- About myself text -->
+                </div>
+            </div>
         </div>
 
         <aside class="sidebar_box"> <!-- блок з контактами-->
-    
+
             <div class='photo-cropper'><!--Картинка-->
                 <img src="./img/MyFace.jpg" id="myphoto" onclick='changePhotoOn()' class="photo"></img><!--Картинка-->
             </div>
-        
+
             <div class="info_block"><!--Контакти-->
-            <h2 class="sidebar_white" id="contacts_label">Contacts</h2>
-            <p><span src="./img/Phone_ico.jpg" alt="C: " class="contact_type">C:</span><a href="tel:+380669153250" class="contact_link">+38 066 915 32 50 </a></p>  
-            <p><span src="./img/Email_ico.jpg" alt="E: " class="contact_type">E:</span><a href="mailto:mr99.maxim@gmail.com" class="contact_link"> mr99.maxim@gmail.com</a></p>
-            <p><img src="./img/Ln_ico.png" alt="in: " class="icon"></img><a href="https://www.linkedin.com/in/mikiua/" class="contact_link"> linkedin.com/in/mikiua</a></p>
-            <p><img src="./img/Gh_white_ico.png" alt="gh: " class="icon"></img><a href="https://github.com/mikiUA" class="contact_link"> github.com/mikiUA</a></p>
-            <p><span class="contact_link"> Ukraine</span></p>
+                <h2 class="sidebar_white" id="contacts_label">Contacts</h2>
+                <p><span src="./img/Phone_ico.jpg" alt="C: " class="contact_type">C:</span><a href="tel:+380669153250"
+                        class="contact_link">+38 066 915 32 50 </a></p>
+                <p><span src="./img/Email_ico.jpg" alt="E: " class="contact_type">E:</span><a
+                        href="mailto:mr99.maxim@gmail.com" class="contact_link"> mr99.maxim@gmail.com</a></p>
+                <p><img src="./img/Ln_ico.png" alt="in: " class="icon"></img><a
+                        href="https://www.linkedin.com/in/mikiua/" class="contact_link"> linkedin.com/in/mikiua</a></p>
+                <p><img src="./img/Gh_white_ico.png" alt="gh: " class="icon"></img><a href="https://github.com/mikiUA"
+                        class="contact_link"> github.com/mikiUA</a></p>
+                <p><span class="contact_link"> Ukraine</span></p>
             </div>
-            
+
             <div class="info_block"><!--Технічні навички-->
-            <h2 class="sidebar_white" id="skills_tech_label">Tech Skills</h2>
-            <ul class="sidebar_skill_list" id="skills_tech">
-                <li><span class="sidebar_skill_text">HTML + CSS</span></li>
-            </ul>
-            </div> 
-            
+                <h2 class="sidebar_white" id="skills_tech_label">Tech Skills</h2>
+                <ul class="sidebar_skill_list" id="skills_tech">
+                    <li><span class="sidebar_skill_text">HTML + CSS</span></li>
+                </ul>
+            </div>
+
             <div class="info_block"><!--Людські якості-->
                 <h2 class="sidebar_white" id="skills_soft_label">Soft Skills</h2>
-                <ul class="sidebar_skill_list" id="skills_soft">            
+                <ul class="sidebar_skill_list" id="skills_soft">
                     <li><span class="sidebar_skill_text">Agile</span></li>
                     <li><span class="sidebar_skill_text">Scrum</span></li>
                     <li><span class="sidebar_skill_text">GTD</span></li>
@@ -85,12 +98,13 @@
                 <ul class="sidebar_skill_list" id="skills_lang">
                     <li><span class="sidebar_skill_text">Enflish</span></li>
                 </ul>
-                </div> 
-        
+            </div>
+
         </aside>
     </div>
     <script src="script/toggle photo.js" name="toggle photo"></script>
     <script src="script/language text.js"></script>
     <script src="script/language script.js" name="changeLanguageTo"></script>
 </body>
+
 </html>
