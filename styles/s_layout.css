@@ -43,21 +43,26 @@
 .topleft {
     position: absolute;
     visibility: visible;
-    right: 1%;
+    right: 5%;
     top: 1%;
+    width: fit-content;
+    text-align: center;
 }
 
 .lang_change_button {
     display: flex;
-    width: 5em;
-    border: 0.1px solid gray;
+    width: fit-content;
+    align-self: center;
+    /* border: 0.1px solid gray; */
 }
 
 .switch {
     display: inline-block;
-    width: 50%;
+    width: 2em;
     text-align: center;
     text-decoration: none;
+    box-sizing: border-box;
+    padding: 1px;
 }
 
 .switch.s_on {
@@ -68,6 +73,11 @@
 .switch.s_off {
     background-color: #aaa;
     color: #888;
+    border: 1px solid #888;
+}
+.download_link:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .photo-cropper {

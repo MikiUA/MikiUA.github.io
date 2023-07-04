@@ -1,4 +1,4 @@
-const supportedLangs = ['EN', 'UA'];
+const supportedLangs = ['EN', 'UA','RO'];
 let language, TXT;
 changeLanguageFn('EN');
 

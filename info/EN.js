@@ -1,7 +1,7 @@
 TXT = {
     "labels": {
         "about me": "About me",
-        "downloadable resume": "download resume",
+        "downloadable resume": "download cv",
         "projects": "Project experience",
         "work exp": "Work experience",
         "education": "Education",
@@ -11,7 +11,7 @@ TXT = {
         "lang skills": "Languages"
     },
     "position": "Web (fullstack) Developer",
-    "name": "Maksym Melnykov",
+    "name": "Maxim Melnicov",
     "description": "Young guy willing to work, ready to bring exciting ideas into life, to improve and create new experience for the customers",
     "about me": "I am interested in web development technologies, I want to create and share projects close to the user. Am sure that by working in this field I can improve my knowledge and hone my skills and then with the team help making peoples lives easier.",
     "downloadable resume link": "#.html",
@@ -142,7 +142,7 @@ TXT = {
         {
             "location": "IT School GoIT",
             "location_href": "",
-            "direction": "Web developement crash course",
+            "direction": "Fullstack developer extensive course",
             "direction_href": "",
             "time_period": "May 2022 - June 2023"
         }
@@ -166,7 +166,7 @@ TXT = {
         "English level B2",
         "Microsoft Word, Excel",
         "Mathematics, statistics",
-        "Drivers licence (B)"
+        "Drivers licence (B,C)"
     ],
     "soft skills": [
         "Problem solving",
@@ -178,6 +178,7 @@ TXT = {
     "lang skills": [
         "English level <a href='img/StatementOfResult.pdf'>B2</a>",
         "Ukrainian Native",
-        "Russian Native"
+        "Russian Native",
+        "Roman pre-intermediate"
     ]
 }
