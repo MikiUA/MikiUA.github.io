@@ -5,15 +5,15 @@ TXT = {
         "projects": "Experiență în proiect",
         "work exp": "Experienta de lucru",
         "education": "Educație",
-        "contacts": "Contacturi",
+        "contacts": "Contacte",
         "tech skills": "Abilitati tehnice",
         "soft skills": "Soft Skills",
         "lang skills": "Limbi"
     },
     "position": "Fullstack JS Developer",
-    "name": "Maxim Melnicov",
+    "name": "Maksym Melnykov",
     "description": "Tânăr dispus să muncească, gata să aducă idei interesante în viață, să îmbunătățească și să creeze experiență nouă pentru clienți",
-    "about me": "Sunt interesat de tehnologiile de dezvoltare web, vreau să creez și să partajez proiecte aproape de utilizator. Sunt sigur că lucrând în acest domeniu îmi pot îmbunătăți cunoștințele și îmi pot perfecționa abilitățile și apoi, cu ajutorul echipei, pot face viața mai ușoară.",
+    "about me": "Sunt interesat de tehnologiile de dezvoltare web, vreau să creez și să partajez proiecte aproape de utilizator. Sunt sigur că lucrând în acest domeniu îmi pot îmbunătăți cunoștințele și îmi pot perfecționa abilitățile și apoi, cu ajutorul echipei, pot face viața mai eficient si ușoară.",
     "downloadable resume link": "#.html",
     "projects": [
         {
@@ -27,8 +27,8 @@ TXT = {
             "link": "https://mikiua.github.io/GooseTrack-frontend",
             "codelink": "https://github.com/MikiUA/GooseTrack-frontend",
             "responsibilities": [
-                "Organizați mediul de lucru (depozite, găzduire și gestionarea versiunilor pentru stiva tehnologică)",
-                "Configurați și controlați regulile pentru gestionarea sucursalelor github, rezolvați conflictele de versiuni",
+                "Organizarea mediul de lucru (depozite, găzduire și gestionarea versiunilor pentru stiva tehnologică)",
+                "Configurarea și controlul regulilor pentru gestionarea sucursalelor github, rezolvarea conflictelor de versiuni",
                 "Comunicarea despre fiecare sarcină care este sau trebuie îndeplinită",
                 "Scrierea documentației, cum ar fi readme, openAPI (swagger) și instrucțiuni privind ramificarea și eticheta de denumire",
                 "Implementarea unui sistem de autentificare a utilizatorilor (backend) folosind Json Web Token",
@@ -46,8 +46,8 @@ TXT = {
             "link": "https://iridescent-bombolone-954cbb.netlify.app/",
             "codelink": "https://github.com/MikiUA/InstrumentsHub",
             "responsibilities": [
-                "Simplificați și unificați codul javascript din diferite implementări",
-                "Realizați un rubber design confortabil"
+                "Simplificarea și unificarea codul javascript din diferite implementări",
+                "Realizarea un rubber design confortabil"
             ]
         },
         {
@@ -61,10 +61,10 @@ TXT = {
             ],
             "role": "Proiect de studiu",
             "responsibilities": [
-                "Dezvoltați o aplicație simplă folosind o mare varietate de tehnologie",
+                "Dezvoltarea o aplicație simplă folosind o mare varietate de tehnologie",
                 "Implementarea sistemului de autentificare",
                 "Folosiți setul de instrumente redux",
-                "Simplificați și înfrumusețați designul folosind o bibliotecă open-source"
+                "Simplificarea și înfrumusețați designul folosind o bibliotecă open-source"
             ]
         },
         {
@@ -76,7 +76,7 @@ TXT = {
             "link": "https://mikiua.github.io/goit-react-hw/hw-05-movies/",
             "codelink": "https://github.com/MikiUA/goit-react-hw/tree/main/src/hw-05-movies",
             "responsibilities": [
-                "Dezvoltați o interfață de utilizator pentru a lucra cu API-ul gratuit themoviedb"
+                "Dezvoltarea o interfață de utilizator pentru a lucra cu API-ul gratuit themoviedb"
             ]
         },
         {
@@ -88,8 +88,8 @@ TXT = {
             "codelink": "https://github.com/MikiUA/Chat-Website/tree/main/screenshots",
             "role": "Developer",
             "responsibilities": [
-                "Aflați elementele de bază ale Node.js și ale dezvoltării web în general",
-                "Implementați un site web funcțional, de o calitate suficient de înaltă pentru a fi considerat utilizabil."
+                "Aflarea elementele de bază ale Node.js și ale dezvoltării web în general",
+                "Implementarea un site web funcțional, de o calitate suficient de înaltă pentru a fi considerat utilizabil."
             ],
             "screenshot": ""
         },
@@ -119,8 +119,8 @@ TXT = {
             "direction_href": "",
             "time_period": "Septembrie 2022",
             "responsibility_list": [
-                "Dezvoltați soluții de sarcini bloc-schemă",
-                "Găsiți și raportați erori pentru platforma low-code în curs de dezvoltare"
+                "Dezvoltarea soluții de sarcini bloc-schemă",
+                "Găsirea și raportarea erori pentru platforma low-code în curs de dezvoltare"
             ]
         },
         {

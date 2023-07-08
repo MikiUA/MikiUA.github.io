@@ -11,7 +11,7 @@ TXT = {
         "lang skills": "Languages"
     },
     "position": "Web (fullstack) Developer",
-    "name": "Maxim Melnicov",
+    "name": "Maksym Melnykov",
     "description": "Young guy willing to work, ready to bring exciting ideas into life, to improve and create new experience for the customers",
     "about me": "I am interested in web development technologies, I want to create and share projects close to the user. Am sure that by working in this field I can improve my knowledge and hone my skills and then with the team help making peoples lives easier.",
     "downloadable resume link": "#.html",
