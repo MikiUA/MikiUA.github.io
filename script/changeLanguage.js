@@ -30,7 +30,6 @@ function updateLangButtons() {
 }
 
 async function changeLanguageFn(newLang = 'EN') {
-    console.log({ BASE });
     newLang = newLang.toUpperCase();
     // if (language === newLang || !supportedLangs.includes(newLang)) return;
     if (!supportedLangs.includes(newLang)) return;
