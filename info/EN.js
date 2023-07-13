@@ -1,7 +1,7 @@
 TXT = {
     "labels": {
         "about me": "About me",
-        "downloadable resume": "download cv",
+        "downloadable resume": "download resume",
         "projects": "Project experience",
         "work exp": "Work experience",
         "education": "Education",
@@ -11,7 +11,8 @@ TXT = {
         "lang skills": "Languages"
     },
     "position": "Web (fullstack) Developer",
-    "name": "Maksym Melnykov",
+    "name": BASE.name,
+    "contacts": BASE.contacts,
     "description": "Young guy willing to work, ready to bring exciting ideas into life, to improve and create new experience for the customers",
     "about me": "I am interested in web development technologies, I want to create and share projects close to the user. Am sure that by working in this field I can improve my knowledge and hone my skills and then with the team help making peoples lives easier.",
     "downloadable resume link": "#.html",
@@ -23,7 +24,7 @@ TXT = {
                 "Node.js",
                 "MaterialUI"
             ],
-            "role": "Team Lead, Frontend and backend deveoper",
+            "role": "Team Lead, Frontend and backend developer",
             "link": "https://mikiua.github.io/GooseTrack-frontend",
             "codelink": "https://github.com/MikiUA/GooseTrack-frontend",
             "responsibilities": [
@@ -117,7 +118,7 @@ TXT = {
             "location_href": "",
             "direction": "Javascript low-code developer",
             "direction_href": "",
-            "time_period": "September 2022",
+            "time_period": "August-October 2022",
             "responsibility_list": [
                 "Develop block-scheme task solutions",
                 "Find and report bugs for in-development low-code platform"
@@ -126,8 +127,20 @@ TXT = {
         {
             "location": "Supermarket \"Class\"",
             "direction": "Handyman",
-            "time_period": "April-May 2018",
-            "responsibility_list": []
+            "time_period": "March-June 2018",
+            "responsibility_list": ["Control and Review price labels and shelf placements of alcohol", "Provide consistent replacements for items on shelves from storage"]
+        },
+        {
+            "location": "Mplast",
+            "direction": "Handyman",
+            "time_period": "-",
+            "responsibility_list": ["Creating metal hatch handles"]
+        },
+        {
+            "location": "НЕЗАБУДЬ-КА СТИЛЬ",
+            "direction": "Handyman",
+            "time_period": "-",
+            "responsibility_list": ["Selling flowers on street", "Helping keeping the flowers"]
         }
     ],
     "education": [
@@ -147,20 +160,15 @@ TXT = {
             "time_period": "May 2022 - June 2023"
         }
     ],
-    "contacts": [
-        {
-            "label": "",
-            "href": ""
-        }
-    ],
     "tech skills": [
-        "C++",
         "Javascript",
         "HTML, CSS",
         "React",
         "Node.js",
         "MongoDB, SQL",
-        "Figma"
+        "Figma",
+        "C++",
+        "Excel,Matcad,Matlab"
     ],
     "more tech skills": [
         "English level B2",

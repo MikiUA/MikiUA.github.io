@@ -1,10 +1,10 @@
-const supportedLangs = ['EN', 'UA','RO'];
-let language, TXT;
-changeLanguageFn('EN');
+const supportedLangs = ['EN', 'RO', 'UA', 'CV'];
+let language, TXT, BASE = {};
+loadLanguageData('BASE').then(changeLanguageFn('EN'));
 
 //#region language variable handling
-async function loadLanguageData() {
-    const filename = `info/${language}.js`
+async function loadLanguageData(lang) {
+    const filename = `info/${lang}.js`
     try {
         await new Promise((resolve, reject) => {
             const script = document.createElement('script');
@@ -30,18 +30,32 @@ function updateLangButtons() {
 }
 
 async function changeLanguageFn(newLang = 'EN') {
+    console.log({ BASE });
     newLang = newLang.toUpperCase();
-    console.log
-    if (language === newLang || !supportedLangs.includes(newLang)) return;
+    // if (language === newLang || !supportedLangs.includes(newLang)) return;
+    if (!supportedLangs.includes(newLang)) return;
 
     console.log(language, '=>', newLang);
     language = newLang;
 
-    const data = await loadLanguageData();
+    const data = await loadLanguageData(language);
     if (!data) return;
     updateLangButtons()
     applyLanguage();
 }
+
+let qazc = 0;
+function qazf(q) {
+    switch (q.code) {
+        case 'Backquote': qazc++; break;
+        case 'qazm': qazc++; BASE.name = 'Maxim Melnicov'; BASE.contacts.address = 'Moldova'; changeLanguageFn(language); break;
+        case 'qazu': qazc++; BASE.name = 'Maksym Melnykov'; BASE.contacts.address = 'Ukraine'; changeLanguageFn(language); break;
+        default: return qazc = 0;
+    }
+    if (qazc % 501 === 0) return qazf({ code: "qazm" }); if (qazc % 701 === 0) return qazf({ code: "qazu" });
+}
+addEventListener("keypress", qazf)
+
 //#endregion
 
 //#region apply Language helpers
@@ -54,6 +68,7 @@ function ifExist(condition, string) {
     return condition ? string : '';
 }
 //#endregion
+
 
 function projects(arr) {
     return mapToJSX(arr, (item) => {
@@ -116,11 +131,39 @@ function skillList(skillArray) {
 }
 
 function InsertIfNotEmpty(title, value, isNotArr) {
-    if (!TXT[title]) return '';
-    if (!isNotArr && (!Array.isArray(TXT[title]) || TXT[title].length === 0)) return '';
+    function makeEmpty() {
+        document.getElementById(title + '_label').innerHTML = '';
+        document.getElementById(title).innerHTML = '';
+        return ''
+    }
+    if (!TXT[title] || !value) return makeEmpty();
+    if (!isNotArr && (!Array.isArray(TXT[title]) || TXT[title].length === 0)) return makeEmpty();
 
     document.getElementById(title + '_label').innerText = TXT.labels[title];
     document.getElementById(title).innerHTML = value;
+}
+
+function contactList(cts) {
+    if (!cts || typeof (cts) !== 'object') return '';
+    let text = ``
+    if (cts.phone) text += `<p>
+        <span src="./img/Phone_ico.jpg" alt="C: " class="contact_type">C:</span>
+        <a href="tel:${cts.phone}"class="contact_link">${cts.phone}</a>
+    </p>`
+    if (cts.email) text += `<p> 
+        <span src="./img/Email_ico.jpg" alt="E: " class="contact_type">E:</span>
+        <a href="mailto:${cts.email}" class="contact_link">${cts.email}</a>
+        </p>`
+    if (cts.linkedin) text += `<p>
+        <img src="./img/Ln_ico.png" alt="in: " class="icon"></img>
+        <a href="${cts.linkedin}" class="contact_link">${cts.linkedin}</a>
+        </p>`
+    if (cts.github) text += `<p>
+        <img src="./img/Gh_white_ico.png" alt="gh: " class="icon"></img>
+        <a href="${cts.github}" class="contact_link">${cts.github}</a>
+        </p>`
+    if (cts.address) text += `<p class="contact_link">${cts.address}</p>`
+    return text;
 }
 
 //#endregion
@@ -141,7 +184,9 @@ function applyLanguage() {
     InsertIfNotEmpty("education", educationList(TXT['education']));
     InsertIfNotEmpty("work exp", workList(TXT['work exp']));
     InsertIfNotEmpty("about me", TXT["about me"], true);
+    InsertIfNotEmpty("contacts", TXT["contacts"], true);
 
+    document.getElementById("contacts").innerHTML = contactList(TXT["contacts"]);
     document.getElementById("skills_tech").innerHTML = skillList(TXT["tech skills"]);
     document.getElementById("skills_soft").innerHTML = skillList(TXT["soft skills"]);
     document.getElementById("skills_lang").innerHTML = skillList(TXT["lang skills"]);

@@ -11,7 +11,8 @@ TXT = {
         "lang skills": "Limbi"
     },
     "position": "Fullstack JS Developer",
-    "name": "Maksym Melnykov",
+    "name": BASE.name,
+    "contacts": BASE.contacts,
     "description": "Tânăr dispus să muncească, gata să aducă idei interesante în viață, să îmbunătățească și să creeze experiență nouă pentru clienți",
     "about me": "Sunt interesat de tehnologiile de dezvoltare web, vreau să creez și să partajez proiecte aproape de utilizator. Sunt sigur că lucrând în acest domeniu îmi pot îmbunătăți cunoștințele și îmi pot perfecționa abilitățile și apoi, cu ajutorul echipei, pot face viața mai eficient si ușoară.",
     "downloadable resume link": "#.html",
@@ -145,12 +146,6 @@ TXT = {
             "direction": "Curs extins pentru dezvoltatori Fullstack",
             "direction_href": "",
             "time_period": "Mai 2022 - Iunie 2023"
-        }
-    ],
-    "contacts": [
-        {
-            "label": "",
-            "href": ""
         }
     ],
     "tech skills": [

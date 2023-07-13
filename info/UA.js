@@ -12,6 +12,7 @@ TXT = {
     },
     "position": "Веб розробник (фуллстак)",
     "name": "Максим Мельников",
+    "contacts": BASE.contacts,
     "description": "",
     "about myself": "",
     "downloadable_resume link": "#.html",
@@ -146,12 +147,6 @@ TXT = {
             "direction": "Курс фуллстак розробника",
             "direction_href": "",
             "time_period": "May 2022 - June 2023"
-        }
-    ],
-    "contacts": [
-        {
-            "label": "",
-            "href": ""
         }
     ],
     "tech skills": [
