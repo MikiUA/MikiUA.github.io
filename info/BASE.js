@@ -1,5 +1,5 @@
 BASE = {
-    "name": "Maksym Melnykov",
+    "name": "Maxim Melnicov",
     "contacts": {
         "phone": "+37379596335",
         "email": "mr99.maxim@gmail.com",
