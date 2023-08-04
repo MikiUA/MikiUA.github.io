@@ -1,10 +1,10 @@
 BASE = {
     "name": "Maxim Melnicov",
     "contacts": {
-        "phone": "+37379596335",
+        "phone": "+40 (724) 123 677",
         "email": "mr99.maxim@gmail.com",
         "linkedin": "linkedin.com/in/mikiua",
         "github": "github.com/mikiUA",
-        "address": "Ukraine"
+        "address": "București, România"
     },
 }
