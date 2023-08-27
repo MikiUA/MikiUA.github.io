@@ -15,7 +15,6 @@ TXT = {
     "contacts": BASE.contacts,
     "description": "Young guy willing to work, ready to bring exciting ideas into life, to improve and create new experience for the customers",
     "about me": "I am interested in web development technologies, I want to create and share projects close to the user. Am sure that by working in this field I can improve my knowledge and hone my skills and then with the team help making peoples lives easier.",
-    "downloadable resume link": "#.html",
     "projects": [
         {
             "title": "GooseTrack",
@@ -116,12 +115,28 @@ TXT = {
         {
             "location": "OneReach.ai",
             "location_href": "",
-            "direction": "Javascript low-code developer",
+            "direction": "Javascript developer",
             "direction_href": "",
-            "time_period": "August-October 2022",
+            "time_period": "June-October 2022",
             "responsibility_list": [
-                "Develop block-scheme task solutions",
+                "Develop block-scheme and javascript task solutions",
                 "Find and report bugs for in-development low-code platform"
+            ]
+        },
+        {
+            "location": "Team Banderogeese",
+            "location_href": "",
+            "direction": "Team Lead, Developer",
+            "time_period": "June 2023",
+            "direction_href": "",
+            "responsibility_list": [
+                "Organise working environment (tech stack)",
+                "Setup and control the rules for team etiquette agreements",
+                "Communicating about every task that is or has to be done",
+                "Writing documentation (readme, instructions for the team on agreed working patterns/etiquette/environment, ",
+                "Implementing a user authentification system (backend)",
+                "Implementing a dark theme setup (frontend)",
+                "Helping teammates with their code, sometimes refactoring inconsistent parts of application"
             ]
         },
         {
@@ -161,18 +176,12 @@ TXT = {
         }
     ],
     "tech skills": [
-        "Javascript",
-        "HTML, CSS",
-        "React",
-        "Node.js",
+        "C++, Javascript",
+        "HTML, CSS, Figma",
+        "Node.js, REST API",
+        "React, Angular",
         "MongoDB, SQL",
-        "Figma",
-        "C++",
-        "Excel,Matcad,Matlab"
-    ],
-    "more tech skills": [
-        "English level B2",
-        "Microsoft Word, Excel",
+        "Excel, Matcad, Matlab",
         "Mathematics, statistics",
         "Drivers licence (B,C)"
     ],
@@ -186,7 +195,7 @@ TXT = {
     "lang skills": [
         "English level <a href='img/StatementOfResult.pdf'>B2</a>",
         "Ukrainian Native",
-        "Russian Native",
-        "Roman pre-intermediate"
+        "Roman pre-intermediate",
+        "Russian Native"
     ]
 }
