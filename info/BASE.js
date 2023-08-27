@@ -3,8 +3,8 @@ BASE = {
     "contacts": {
         "phone": "+40749825788",
         "email": "mr99.maxim@gmail.com",
-        "linkedin": "linkedin.com/in/mikiua",
-        "github": "github.com/mikiua",
+        "linkedin": "https://linkedin.com/in/mikiua",
+        "github": "https://github.com/mikiua",
         "address": "București, România"
     },
 }
