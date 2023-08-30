@@ -176,7 +176,7 @@ TXT = {
         }
     ],
     "tech skills": [
-        "C++, Javascript",
+        "C++, Javascript, Typescript",
         "HTML, CSS, Figma",
         "Node.js, REST API",
         "React, Angular",
@@ -186,16 +186,16 @@ TXT = {
         "Drivers licence (B,C)"
     ],
     "soft skills": [
-        "Problem solving",
         "Creative",
         "Responsible",
         "Preparative",
+        "Problem solving",
         "Incorporated AI into work cycle"
     ],
     "lang skills": [
         "English level <a href='img/StatementOfResult.pdf'>B2</a>",
-        "Ukrainian Native",
-        "Roman pre-intermediate",
-        "Russian Native"
+        "Roman intermediate",
+        "Ukrainian proficient",
+        "Russian proficient"
     ]
 }
