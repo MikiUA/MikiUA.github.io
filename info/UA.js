@@ -138,7 +138,7 @@ TXT = {
             "location_href": "https://www.kpi.kharkov.ua/eng/",
             "direction": "<a href='http://web.kpi.kharkov.ua/apm/golovna/'>Математика та статистика</a> | <a href='img/diploma.jpg'>посилання на диплом</a>",
             "direction_href": "",
-            "time_period": "September 2016 - June 2021 | Ukraine, Kharkiv",
+            "time_period": "Вересень 2016 - Червень 2021 | Харків",
             "diploma": ""
         },
         {
@@ -159,10 +159,9 @@ TXT = {
         "Figma"
     ],
     "more tech skills": [
-        "Англійска рівня B2",
         "Microsoft Word, Excel",
         "Математика та статистика",
-        "Водійскі права (B)"
+        "Водійскі права (B,C)"
     ],
     "soft skills": [
         "Вирішення задач",
@@ -172,8 +171,8 @@ TXT = {
     ],
     "lang skills": [
         "Англійска <a href='img/StatementOfResult.pdf'>рівня B2</a>",
-        "Українська (рідна)",
-        "Російска (вільне володіння)",
+        "Українська",
+        "російска",
         "Румунська початкова"
     ]
 }

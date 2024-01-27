@@ -9,7 +9,7 @@ async function downloadAsPdf() {
 
   // Get the page content
   const content = document.documentElement.cloneNode(true);
-  // content.querySelectorAll('img').forEach(image => image.src = '');//for local file testing
+  content.querySelectorAll('img').forEach(image => image.crossorigin = "anonymous"/*src = ''*/);//for local file testing
   // content.querySelectorAll('li').forEach(litem => litem.innerHTML = '- ' + litem.innerHTML);//for local file testing
   content.querySelector('#topleft').style = "visibility:hidden";
 
