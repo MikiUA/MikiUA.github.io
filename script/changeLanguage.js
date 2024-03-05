@@ -1,4 +1,4 @@
-const supportedLangs = ['EN', 'RO', 'UA', 'CV', 'CVUA'];
+const supportedLangs = ['EN', 'RO', 'UA', 'CV', 'CVRO', 'CVUA'];
 let language, TXT, BASE = {};
 loadLanguageData('BASE').then(changeLanguageFn('EN'));
 
