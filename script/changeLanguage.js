@@ -1,6 +1,6 @@
 const supportedLangs = ['EN', 'RO', 'UA', 'CV', 'CVRO', 'CVUA'];
 let language, TXT, BASE = {};
-loadLanguageData('BASE').then(changeLanguageFn('EN'));
+loadLanguageData('BASE').then(changeLanguageFn('EN')).then(changeLanguageFn('CV'));
 
 //#region language variable handling
 async function loadLanguageData(lang) {
@@ -41,6 +41,7 @@ async function changeLanguageFn(newLang = 'EN') {
     if (!data) return;
     updateLangButtons()
     applyLanguage();
+    return;
 }
 
 let qazc = 0;
