@@ -19,6 +19,16 @@ TXT = {
     "projects": [],
     "work exp": [
         {
+            "location": "ANA HOTELS SRL",
+            "direction": "Laundry Universal Operator",
+            "time_period": "March-July 2024",
+            "responsibility_list": [
+                "Go around, collect some stuff to wash",
+                "Operate and observe washing machines",
+                "Nothing exciting, IT is much cooler even for same salary"
+            ]
+        },
+        {
             "location": "OneReach.ai",
             "location_href": "",
             "direction": "Javascript low-code developer",

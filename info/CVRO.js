@@ -19,6 +19,16 @@ TXT = {
     "projects": [],
     "work exp": [
         {
+            "location": "ANA HOTELS SRL",
+            "direction": "Operator Universal Spălătorie",
+            "time_period": "martie-iulie 2024",
+            "responsibility_list": [
+                "Adună niște lucruri de spălat",
+                "pornirea și urmărirea mașinilor de spălat",
+                "Nimic interesant, IT-ul este mult mai cool chiar și pentru același salariu"
+            ]
+        },
+        {
             "location": "OneReach.ai",
             "location_href": "",
             "direction": "Dezvoltator Javascript low-code",
