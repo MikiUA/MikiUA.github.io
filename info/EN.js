@@ -10,7 +10,7 @@ TXT = {
         "soft skills": "Soft Skills",
         "lang skills": "Languages"
     },
-    "position": "Web (fullstack) Developer",
+    "position": "Application Developer",
     "name": BASE.name,
     "contacts": BASE.contacts,
     "description": "Young guy willing to work, ready to bring exciting ideas into life, to improve and create new experience for the customers",
@@ -115,7 +115,7 @@ TXT = {
         {
             "location": "ANA HOTELS SRL",
             "direction": "Laundry Universal Operator",
-            "time_period": "March-July 2024",
+            "time_period": "March 2024 - July 2024",
             "responsibility_list": [
                 "Go around, collect some stuff to wash",
                 "Operate and observe washing machines",
