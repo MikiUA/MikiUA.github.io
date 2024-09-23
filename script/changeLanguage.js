@@ -1,6 +1,6 @@
 const supportedLangs = ['EN', 'RO', 'CV', 'CVRO'];
 let language, TXT, BASE = {};
-loadLanguageData('BASE').then(changeLanguageFn('EN')).then(changeLanguageFn('CV'));
+loadLanguageData('BASE').then(()=>changeLanguageFn('CV'));
 
 //#region language variable handling
 async function loadLanguageData(lang) {

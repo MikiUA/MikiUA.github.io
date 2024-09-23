@@ -11,16 +11,17 @@
     display: flex;
     flex-direction: row-reverse;
     width: 98vw;
-    max-width: fit-content;
-    overflow: auto;
+    max-width: 1000px;
+    /* width:595pt; */
+    /* overflow: auto; */
     margin: 0 auto;
 }
 
 .info_box {
     flex-grow: 1;
-    padding: 25px 5em 0;
+    padding: 20pt 5em;
     background-color: #fdfdfd;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 4pt 4pt 15pt rgba(0, 0, 0, 0.1);
     color: #4d4d4d;
 }
 
@@ -29,12 +30,9 @@
 }
 
 .sidebar_box {
-
     width: 20%;
-    min-width: 200px;
-    max-width: 300px;
-
-    padding: 25px 20px;
+    min-width: 130pt;
+    padding: 20pt 15pt;
 
     background-color: #1E2939;
     color: #fff;
@@ -73,7 +71,7 @@
 .switch.s_off {
     background-color: #aaa;
     color: #888;
-    border: 1px solid #888;
+    border: 0.75pt solid #888;
 }
 .download_link:hover{
     text-decoration: underline;
@@ -81,10 +79,9 @@
 }
 
 .photo-cropper {
-    width: 110px;
-        height: 120px;
+    width: 78pt;
+    height: 85pt;
     margin: 0 auto;
-    padding-bottom: 10px;
 }
 
 .photo {

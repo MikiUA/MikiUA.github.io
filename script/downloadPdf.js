@@ -1,17 +1,22 @@
 // Function to download the current web page as a PDF
 async function downloadAsPdf() {
   const options = {
+    margin:0,
     filename: `${language}_${BASE.name}.pdf`,
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: { scale: 2, useCORS: true },
-    jsPDF: { unit: 'pt', format: 'letter', orientation: 'portrait' }
+    jsPDF: { unit: 'pt', format: 'a4', orientation: 'portrait' }
   };
 
   // Get the page content
-  const content = document.documentElement.cloneNode(true);
-  content.querySelectorAll('img').forEach(image => image.crossorigin = "anonymous"/*src = ''*/);//for local file testing
-  // content.querySelectorAll('li').forEach(litem => litem.innerHTML = '- ' + litem.innerHTML);//for local file testing
+  const content = document.querySelector('#main_box').cloneNode(true);
+  
+  content.querySelectorAll('img').forEach(image => image.crossorigin = "anonymous" );
+  content.querySelectorAll('img').forEach(image => image.src = "" );//for local file test ing
+
   content.querySelector('#topleft').style = "visibility:hidden";
+  content.querySelector('#info_box').style.padding = "0 5em 1.5em";
+  content.style.width = "100%";   // Ensure it uses the full width of the PDF page.
 
   // Generate the PDF
   html2pdf().set(options).from(content).outputPdf('datauristring')

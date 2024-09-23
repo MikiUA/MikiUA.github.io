@@ -5,8 +5,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 9pt;
+    line-height: 10pt;
 }
 
 a {
@@ -32,8 +32,8 @@ h4 {
 }
 
 h1 {
-    font-size: 200%;
-    line-height: 200%;
+    font-size: 190%;
+    line-height: 190%;
 }
 
 h2 {
