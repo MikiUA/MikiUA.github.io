@@ -12,7 +12,7 @@ async function downloadAsPdf() {
   const content = document.querySelector('#main_box').cloneNode(true);
   
   content.querySelectorAll('img').forEach(image => image.crossorigin = "anonymous" );
-  content.querySelectorAll('img').forEach(image => image.src = "" );//for local file test ing
+  // content.querySelectorAll('img').forEach(image => image.src = "" );//for local file test ing
 
   content.querySelector('#topleft').style = "visibility:hidden";
   content.querySelector('#info_box').style.padding = "0 5em 1.5em";
