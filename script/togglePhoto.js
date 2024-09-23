@@ -1,4 +1,4 @@
-let isPhotoOn = false;
+let isPhotoOn = true;
 const photoElement = document.getElementById('myphoto');
 
 function togglePhoto() {

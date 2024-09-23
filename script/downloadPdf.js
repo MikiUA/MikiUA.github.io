@@ -1,7 +1,7 @@
 // Function to download the current web page as a PDF
 async function downloadAsPdf() {
   const options = {
-    filename: 'CV_Fullstack_Melnicov_Maxim.pdf',
+    filename: `${language}_${BASE.name}.pdf`,
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: { scale: 2, useCORS: true },
     jsPDF: { unit: 'pt', format: 'letter', orientation: 'portrait' }

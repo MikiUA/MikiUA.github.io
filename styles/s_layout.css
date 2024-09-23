@@ -18,7 +18,7 @@
 
 .info_box {
     flex-grow: 1;
-    padding: 35px 5em;
+    padding: 25px 5em 0;
     background-color: #fdfdfd;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     color: #4d4d4d;
@@ -81,10 +81,10 @@
 }
 
 .photo-cropper {
-    width: 180px;
-    height: 180px;
+    width: 110px;
+        height: 120px;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .photo {
