@@ -6,8 +6,8 @@ TXT = {
         "work exp": "Experienta de lucru",
         "education": "Educație",
         "contacts": "Contacte",
-        "tech skills": "Abilitati tehnice",
-        "soft skills": "Soft Skills",
+        "tech skills": "Abilitati",
+        "soft skills": "Personalitate",
         "lang skills": "Limbi"
     },
     "position": "",
@@ -21,11 +21,10 @@ TXT = {
         {
             "location": "ANA HOTELS SRL",
             "direction": "Operator Universal Spălătorie",
-            "time_period": "martie-iulie 2024",
+            "time_period": "Martie 2024 - Iulie 2024",
             "responsibility_list": [
                 "Adună niște lucruri de spălat",
-                "pornirea și urmărirea mașinilor de spălat",
-                "Nimic interesant, IT-ul este mult mai cool chiar și pentru același salariu"
+                "Pornirea și urmărirea mașinilor de spălat"
             ]
         },
         {
@@ -33,7 +32,7 @@ TXT = {
             "location_href": "",
             "direction": "Dezvoltator Javascript low-code",
             "direction_href": "",
-            "time_period": "Septembrie 2022",
+            "time_period": "August 2022 - Octombrie 2022",
             "responsibility_list": [
                 "Dezvoltarea soluții de sarcini bloc-schemă",
                 "Găsirea și raportarea erori pentru platforma low-code în curs de dezvoltare"
@@ -55,8 +54,8 @@ TXT = {
         },
         {
             "location": "Supermarket \"Class\"",
-            "direction": "Omniprezent",
-            "time_period": "Martie-Iunie 2018",
+            "direction": "Muncitor necalificat",
+            "time_period": "Martie 2018 - Iunie 2018",
             "responsibility_list": ["Control și revizuire etichete de preț și plasarea sticlelor de alcool", "Asigurarea înlocuirii constante a produselor pe rafturi din depozit"]
         },
         {
@@ -67,7 +66,7 @@ TXT = {
         },
         {
             "location": "НЕЗАБУДЬ-КА СТИЛЬ",
-            "direction": "Omniprezent",
+            "direction": "Muncitor necalificat",
             "time_period": "-",
             "responsibility_list": ["Vânzarea de flori pe stradă", "Ajutarea la păstrarea florilor"]
         }
@@ -91,20 +90,21 @@ TXT = {
     ],
     "tech skills": [
         "Permis de conducere (B,C)",
-        "Excel, Matlab, Matcad",
-        "Programare",
-        "Redactarea documentației"
+        "Săpat, transport, sortare mărfuri",
+        "Scrierea documentației",
+        "Excel, Word, Matlab, Matcad",
+        "Matematică și Statistică, Programare",
     ],
     "soft skills": [
-        "Rezolvarea problemelor",
-        "Matematică și Statistică",
-        "Preparator",
-        "Integrarea AI în ciclul de lucru"
+        "Rezolvator de probleme",
+        "Prietenos",
+        "Atent",
+        "Prevazut",
     ],
     "lang skills": [
         "Engleză <a href='img/StatementOfResult.pdf'>nivel B2</a>",
+        "Română intermediară",
         "Ucraineană Nativa",
-        "Rusă Nativa",
-        "Română intermediară"
+        "Rusă Nativa"
     ]
 }

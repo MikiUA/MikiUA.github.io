@@ -7,7 +7,7 @@ TXT = {
         "education": "Education",
         "contacts": "Contacts",
         "tech skills": "Skills",
-        "soft skills": "General",
+        "soft skills": "Personality",
         "lang skills": "Languages"
     },
     "position": "",
@@ -24,8 +24,7 @@ TXT = {
             "time_period": "March-July 2024",
             "responsibility_list": [
                 "Go around, collect some stuff to wash",
-                "Operate and observe washing machines",
-                "Nothing exciting, IT is much cooler even for same salary"
+                "Operate and observe washing machines"
             ]
         },
         {
@@ -90,21 +89,23 @@ TXT = {
         }
     ],
     "tech skills": [
-        "Drivers licence (B,C)",
-        "Excel, Matlab, Matcad",
-        "Programming",
-        "Writing documentation"
+        "Driving license (B,C)",
+        "Digging, transporting, sorting goods",
+        "Writing Documentation",
+        "Excel, Word, Matlab, Matcad",
+        "Mathematics and Statistics, Programming",
     ],
     "soft skills": [
-        "Problem solving",
-        "Maths and Statistics",
-        "Preparative",
+        "Problem solver",
+        "Friendly",
+        "Careful",
+        "Preparative / foresighted",
         "Incorporated AI into work cycle"
     ],
     "lang skills": [
         "English <a href='img/StatementOfResult.pdf'>level B2</a>",
+        "Romanian intermediate",
         "Ukrainian Native",
         "Russian Native",
-        "Roman intermediate"
     ]
 }
