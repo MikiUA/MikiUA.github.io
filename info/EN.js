@@ -1,6 +1,6 @@
 TXT = {
     "labels": {
-        "about me": "About me",
+        "about me": "Who I Am?",
         "downloadable resume": "download resume",
         "projects": "Project experience",
         "work exp": "Work experience",
@@ -14,7 +14,7 @@ TXT = {
     "name": BASE.name,
     "contacts": BASE.contacts,
     "description": "Young guy willing to work, ready to bring exciting ideas into life, to improve and create new experience for the customers",
-    "about me": "I am interested in web development technologies, I want to create and share projects close to the user. Am sure that by working in this field I can improve my knowledge and hone my skills and then with the team help making peoples lives easier.",
+    "about me": "backend frontend fullstack, javascript typescript c++ python delphi assembly, application developer, mathematician, designer, engineer, manager, team lead, driver, teacher, superman, data scientist",
     "projects": [
         {
             "title": "GooseTrack",
@@ -27,13 +27,11 @@ TXT = {
             "link": "https://mikiua.github.io/GooseTrack-frontend",
             "codelink": "https://github.com/MikiUA/GooseTrack-frontend",
             "responsibilities": [
-                "Organise working environment (repositories, hosting and version management for tech stack)",
-                "Setup and control the rules for github branch management, resolve version conflicts",
-                "Communicating about every task that is or has to be done",
-                "Writing documentation, such as readme, openAPI (swagger), and instructions on branching and naming etiquette",
+                "Organise repositories, hosting and version management, etc...",
+                "Writing readme, openAPI (swagger), and instructions on branching and naming etiquette",
+                "Controlling the rules for github branch management, resolve version conflicts",
                 "Implementing a user authentification system (backend) using Json Web Token",
-                "Implementing a dark theme setup (frontend), including theme and component coloring patterns",
-                "Helping teammates with their code, sometimes refactoring inconsistent parts of application"
+                "Implementing a dark theme setup (frontend), including theme and component coloring patterns"
             ]
         },
         {
@@ -111,26 +109,18 @@ TXT = {
             "screenshot": ""
         }
     ],
-    "work exp": [
-        {
-            "location": "ANA HOTELS SRL",
-            "direction": "Laundry Universal Operator",
-            "time_period": "March 2024 - July 2024",
-            "responsibility_list": [
-                "Go around, collect some stuff to wash",
-                "Operate and observe washing machines",
-                "Nothing exciting, IT is much cooler even for same salary"
-            ]
-        },
+    "work exp": [  
         {
             "location": "OneReach.ai",
             "location_href": "",
             "direction": "Javascript developer",
             "direction_href": "",
-            "time_period": "June-October 2022",
+            "time_period": "May 2022-April 2023",
             "responsibility_list": [
-                "Develop block-scheme and javascript task solutions",
-                "Find and report bugs for in-development low-code platform"
+                "Develop block-schemes for task solutions",
+                "Applied javascript to solve tasks that were not forseen by platform developers",
+                "Find and report bugs for in-development low-code platform",
+                "Create and/or optimise blocks for a website constructor, (I mostly specified in different travelling website APIs)"
             ]
         },
         {
@@ -140,32 +130,50 @@ TXT = {
             "time_period": "June 2023",
             "direction_href": "",
             "responsibility_list": [
+                "Only lead one project, couple of weeks, 13 people",
                 "Organise working environment (tech stack)",
-                "Setup and control the rules for team etiquette agreements",
-                "Communicating about every task that is or has to be done",
+                "Setup and control the rules for team etiquette (naming, branching, file structure, etc...)",
+                "Communicating about every task that is or has to be done (including closing their tickets and merging)",
                 "Writing documentation (readme, instructions for the team on agreed working patterns/etiquette/environment, ",
                 "Implementing a user authentification system (backend)",
-                "Implementing a dark theme setup (frontend)",
+                "Implementing some visual components (frontend), including dark mode",
                 "Helping teammates with their code, sometimes refactoring inconsistent parts of application"
             ]
         },
         {
-            "location": "Supermarket \"Class\"",
-            "direction": "Handyman",
-            "time_period": "March-June 2018",
-            "responsibility_list": ["Control and Review price labels and shelf placements of alcohol", "Provide consistent replacements for items on shelves from storage"]
+            "location": "MetalPlast LLC",
+            "direction": "3D Printer software developer",
+            "time_period": "November 2023 - February 2025",
+            "responsibility_list": [
+                "developed applications to transfer tasks between viable formats (i.e. matrices to images and back)",
+                "created specific 3d models to test different types of technologies and materials",
+                "updated software that translated models into direct printing instructions",
+                "calculate how the color should be applied without the loss of product durability",
+                "mostly used c++ and linear algebra"
+             ]
         },
         {
-            "location": "Mplast",
-            "direction": "Handyman",
-            "time_period": "-",
-            "responsibility_list": ["Creating metal hatch handles"]
+            "location": "ANA HOTELS",
+            "direction": "System administrator",
+            "time_period": "September 2023 - May 2024",
+            "responsibility_list": [
+                "observing if all internal computers are connected and running, manually restarting them if something happened",
+                "controlling the server pc, logging all the errors, fixing minor ones, reporting major ones to the server manager",
+                "restarting all of the server scripts in cases of power outage or critical errors",
+                "responsible for database backups, fixing some requests if other workers made mistakes",
+                "updating documentation for other employees (old an and new) to describe in simple terms how to use it, usually only when changes were made to the application by our senior"
+             ]
         },
         {
-            "location": "НЕЗАБУДЬ-КА СТИЛЬ",
-            "direction": "Handyman",
-            "time_period": "-",
-            "responsibility_list": ["Selling flowers on street", "Helping keeping the flowers"]
+            "location":"Freelance",
+            "direction": "Software and operating system master",
+            "time_period": "May 2024 - now",
+            "responsibility_list": [
+                "for an eldely lady who wanted to write a book installed windows and the suite, including image editing, explained how all of this stuff works to set her on her journey",
+                "for a young windows hater with specific tasks installed a linux distribution and fixed all of his wants and needs, like local network sharing, miracast, gaming, file duplication, screen sharing on wayland, etc...",
+                "for a vtuber set him up with software to create, animate, stream a model, ai voice changer, even hoooked him up with a cheap model creator",
+                "for an AI intern found and set up all the local software from ui and tts to the AI models and datasets"
+             ]
         }
     ],
     "education": [
@@ -182,7 +190,7 @@ TXT = {
             "location_href": "",
             "direction": "Fullstack developer extensive course",
             "direction_href": "",
-            "time_period": "May 2022 - June 2023"
+            "time_period": "June 2022 - June 2023"
         }
     ],
     "tech skills": [
@@ -204,7 +212,7 @@ TXT = {
     ],
     "lang skills": [
         "English level <a href='img/StatementOfResult.pdf'>B2</a>",
-        "Roman intermediate",
+        "Romanian intermediate",
         "Ukrainian proficient",
         "Russian proficient"
     ]
