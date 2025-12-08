@@ -14,7 +14,7 @@ TXT = {
     "name": BASE.name,
     "contacts": BASE.contacts,
     "description": "Young guy willing to work, ready to bring exciting ideas into life, to improve and create new experience for the customers",
-    "about me": "backend frontend fullstack, javascript typescript c++ python delphi assembly, application developer, mathematician, designer, engineer, manager, team lead, driver, teacher, superman, data scientist",
+    "about me": "backend frontend fullstack, javascript typescript c++ python assembly, application developer, mathematician, designer, engineer, manager, team lead, driver, teacher, superman, data scientist",
     "projects": [
         {
             "title": "GooseTrack",
@@ -111,26 +111,50 @@ TXT = {
     ],
     "work exp": [  
         {
-            "location": "OneReach.ai",
+            "location": "Barracuda",
             "location_href": "",
-            "direction": "Javascript developer",
+            "direction": "Fullstack Web Developer",
             "direction_href": "",
-            "time_period": "May 2022-April 2023",
+            "time_period": "2024 - 2025",
             "responsibility_list": [
-                "Develop block-schemes for task solutions",
-                "Applied javascript to solve tasks that were not forseen by platform developers",
-                "Find and report bugs for in-development low-code platform",
-                "Create and/or optimise blocks for a website constructor, (I mostly specified in different travelling website APIs)"
+                "collaborating on user interfaces with react",
+                "placing UI from figma into React",
+                "write api calls for new and old features",
+                "making sure i am not dropping tables in production"
             ]
         },
+        {
+            "location": "ANA HOTELS",
+            "direction": "machine operator",
+            "time_period": "2024",
+            "responsibility_list": [
+                "observing if internal computers are connected and running, manually restarting them if something happened",
+                "logging all the errors, fixing minor ones, reporting major ones to the server manager",
+                // "restarting all of the server scripts in cases of power outage or critical errors",
+                // "responsible for database backups, fixing some requests if other workers made mistakes",
+                // "updating documentation for other employees (old an and new) to describe in simple terms how to use it, usually only when changes were made to the application by our senior"
+             ]
+        },
+        {
+            "location": "MetalPlast LLC",
+            "direction": "3D Printer software developer",
+            "time_period": "2023 - 2025",
+            "responsibility_list": [
+                "developed applications to transfer tasks between viable formats (i.e. matrices to images and back)",
+                "created specific 3d models to test different types of technologies and materials",
+                "updated software that translated models into direct printing instructions",
+                "calculate how the color should be applied without the loss of product durability",
+                "mostly used c++ and linear algebra"
+             ]
+        },     
         {
             "location": "Team Banderogeese",
             "location_href": "",
             "direction": "Team Lead, Developer",
-            "time_period": "June 2023",
+            "time_period": "2023",
             "direction_href": "",
             "responsibility_list": [
-                "Only lead one project, couple of weeks, 13 people",
+                "Lead for one project, couple of weeks, 13 people",
                 "Organise working environment (tech stack)",
                 "Setup and control the rules for team etiquette (naming, branching, file structure, etc...)",
                 "Communicating about every task that is or has to be done (including closing their tickets and merging)",
@@ -141,40 +165,29 @@ TXT = {
             ]
         },
         {
-            "location": "MetalPlast LLC",
-            "direction": "3D Printer software developer",
-            "time_period": "November 2023 - February 2025",
+            "location": "OneReach.ai",
+            "location_href": "",
+            "direction": "Javascript developer",
+            "direction_href": "",
+            "time_period": "2022",
             "responsibility_list": [
-                "developed applications to transfer tasks between viable formats (i.e. matrices to images and back)",
-                "created specific 3d models to test different types of technologies and materials",
-                "updated software that translated models into direct printing instructions",
-                "calculate how the color should be applied without the loss of product durability",
-                "mostly used c++ and linear algebra"
-             ]
-        },
-        {
-            "location": "ANA HOTELS",
-            "direction": "System administrator",
-            "time_period": "September 2023 - May 2024",
-            "responsibility_list": [
-                "observing if all internal computers are connected and running, manually restarting them if something happened",
-                "controlling the server pc, logging all the errors, fixing minor ones, reporting major ones to the server manager",
-                "restarting all of the server scripts in cases of power outage or critical errors",
-                "responsible for database backups, fixing some requests if other workers made mistakes",
-                "updating documentation for other employees (old an and new) to describe in simple terms how to use it, usually only when changes were made to the application by our senior"
-             ]
-        },
-        {
-            "location":"Freelance",
-            "direction": "Software and operating system master",
-            "time_period": "May 2024 - now",
-            "responsibility_list": [
-                "for an eldely lady who wanted to write a book installed windows and the suite, including image editing, explained how all of this stuff works to set her on her journey",
-                "for a young windows hater with specific tasks installed a linux distribution and fixed all of his wants and needs, like local network sharing, miracast, gaming, file duplication, screen sharing on wayland, etc...",
-                "for a vtuber set him up with software to create, animate, stream a model, ai voice changer, even hoooked him up with a cheap model creator",
-                "for an AI intern found and set up all the local software from ui and tts to the AI models and datasets"
-             ]
+                "Applied javascript to solve tasks for user applications (user i/o, result calculations, etc...)",
+                "Find and report bugs for the platform the company was developing",
+                "Create and/or optimise blocks for a website constructor, (mostly specified in travelling website APIs)"
+            ]
         }
+        // {
+        //     "location":"Freelance",
+        //     "direction": "Software and operating system master",
+        //     "time_period": "",
+        //     "responsibility_list": [
+        //         "installing different os and application stacks, be it office suite, ai hosting, streaming, etc..."
+        //         /*"for an eldely lady who wanted to write a book installed windows and the suite, including image editing, explained how all of this stuff works to set her on her journey",
+        //         "for a young windows hater with specific tasks installed a linux distribution and fixed all of his wants and needs, like local network sharing, miracast, gaming, file duplication, screen sharing on wayland, etc...",
+        //         "for a vtuber set him up with software to create, animate, stream a model, ai voice changer, even hoooked him up with a cheap model creator",
+        //         "for an AI intern found and set up all the local software from ui and tts to the AI models and datasets"*/
+        //      ]
+        // }
     ],
     "education": [
         {
