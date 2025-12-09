@@ -14,7 +14,7 @@ TXT = {
     "name": BASE.name,
     "contacts": BASE.contacts,
     "description": "Young guy willing to work, ready to bring exciting ideas into life, to improve and create new experience for the customers",
-    "about me": "backend frontend fullstack, javascript typescript c++ python assembly, application developer, mathematician, designer, engineer, manager, team lead, driver, teacher, superman, data scientist",
+    "about me": "backend frontend fullstack, javascript typescript c++ python assembly, application developer, mathematician, designer, engineer, manager, team lead, superman, data scientist",
     "projects": [
         {
             "title": "GooseTrack",
@@ -123,18 +123,18 @@ TXT = {
                 "making sure i am not dropping tables in production"
             ]
         },
-        {
-            "location": "ANA HOTELS",
-            "direction": "machine operator",
-            "time_period": "2024",
-            "responsibility_list": [
-                "observing if internal computers are connected and running, manually restarting them if something happened",
-                "logging all the errors, fixing minor ones, reporting major ones to the server manager",
-                // "restarting all of the server scripts in cases of power outage or critical errors",
-                // "responsible for database backups, fixing some requests if other workers made mistakes",
-                // "updating documentation for other employees (old an and new) to describe in simple terms how to use it, usually only when changes were made to the application by our senior"
-             ]
-        },
+        // {
+        //     "location": "ANA HOTELS",
+        //     "direction": "machine operator",
+        //     "time_period": "2024",
+        //     "responsibility_list": [
+        //         "observing if internal computers are connected and running, manually restarting them if something happened",
+        //         "logging all the errors, fixing minor ones, reporting major ones to the server manager",
+        //         // "restarting all of the server scripts in cases of power outage or critical errors",
+        //         // "responsible for database backups, fixing some requests if other workers made mistakes",
+        //         // "updating documentation for other employees (old an and new) to describe in simple terms how to use it, usually only when changes were made to the application by our senior"
+        //      ]
+        // },
         {
             "location": "MetalPlast LLC",
             "direction": "3D Printer software developer",
